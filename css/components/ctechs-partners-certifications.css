@@ -1,0 +1,60 @@
+@import url('../variable.css');
+
+.ctechs-partners-certifications-section {
+    padding: 4rem;
+}
+
+.ctechs-partners-certifications-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.ctechs-partners-certifications-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.partner-certifications-logo {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+}
+
+@media (max-width: 900px) {
+    .ctechs-partners-certifications-section {
+        padding: 2.5rem 0.5rem;
+    }
+    .ctechs-partners-certifications-logos {
+        gap: 24px;
+    }
+    .partner-certifications-logo {
+        width: 80px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ctechs-partners-certifications-section {
+        padding: 1.5rem 0.25rem;
+    }
+    .ctechs-partners-certifications-container {
+        padding: 0 8px;
+    }
+    .ctechs-partners-certifications-logos {
+        gap: 16px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .partner-certifications-logo {
+        width: 100%;
+        max-width: 180px;
+        height: 40px;
+        margin: 0 auto;
+    }
+}

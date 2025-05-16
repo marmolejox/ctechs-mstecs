@@ -1,0 +1,209 @@
+@import url('../variable.css');
+
+
+.mstecs-features-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: Roboto, 'sans-serif';
+}
+
+.mstecs-features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.mstecs-features-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 24px;
+}
+
+.mstecs-features-logo {
+    margin-bottom: 0;
+}
+
+.mstecs-features-title {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--color-black-50);
+    text-align: left;
+}
+
+.mstecs-features-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.mstecs-features-cards-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mstecs-feature-card {
+    background: var(--color-gray-25);
+    border-radius: 74px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    padding: 32px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100%;
+}
+
+.mstecs-card-pretitle {
+    font-size: 1rem;
+    color: #444;
+    letter-spacing: 1rem;
+    padding-left: 24px;
+    margin-bottom: 2px;
+}
+
+.mstecs-card-title {
+    font-size: 1.5rem;
+    margin: 0 0 8px 0;
+    color: var(--color-blue-mstecs);
+}
+
+.mstecs-card-subtitle {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+.mstecs-card-separator {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    border-image: linear-gradient(to right, transparent 10%, #888888 50%, transparent 90%) 1;
+    width: 60%;
+    margin: 2px auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.mstecs-card-section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2px 0 0 0;
+    color: #444;
+}
+
+.mstecs-card-section-subtitle {
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 2px 0 0 0;
+    color: #444;
+}
+
+.mstecs-card-price {
+    font-size: 2.5rem;
+    color: var(--color-blue-mstecs);
+    margin: 0 0 2px 0;
+}
+
+.mstecs-card-btn {
+    padding: 10px 82px;
+    text-decoration: underline;
+    background: var(--color-blue-mstecs);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(0, 95, 163, 0.32);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.mstecs-card-btn:hover {
+    background: #005fa3;
+}
+
+.mstecs-card-list {
+    text-align: left;
+    margin: 10px 0 50px 0;
+    padding-left: 64px;
+    padding-right: 64px;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+
+.mstecs-card-list-3 {
+    text-align: left;
+    margin: 10px 0 50px 0;
+    padding-right: 18px;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.mstecs-card-list li {
+    margin-bottom: 10px;
+}
+
+.mstecs-card-icons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 8px 0;
+}
+
+.mstecs-card-icons-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 12px;
+    justify-items: center;
+    align-items: center;
+    margin: 8px 0 8px 0;
+}
+
+.mstecs-card-icons-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    justify-items: center;
+    align-items: center;
+    margin: 8px 0 8px 0;
+}
+
+@media (max-width: 900px) {
+
+
+    .mstecs-features-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .mstecs-features-logo {
+        margin-bottom: 8px;
+        max-width: 120px;
+        height: auto;
+    }
+    .mstecs-features-title {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .mstecs-features-cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .mstecs-feature-card {
+        padding: 24px 12px;
+    }
+}

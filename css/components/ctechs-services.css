@@ -1,0 +1,128 @@
+@import url('../variable.css');
+
+:root {
+    --padding-x: 20px;
+}
+
+.ctechs-services {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 var(--padding-x);
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.ctechs-highlight {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-black-90);
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding-bottom: 5rem;
+}
+
+.ctechs-services__card {
+    background-color: var(--color-gray-30);
+    border-radius: 80px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 25px var(--padding-x);
+}
+
+.ctechs-services__card-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.ctechs-services__card-header img {
+    max-width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.ctechs-services__title {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--color-blue-ctechs);
+    line-height: 1.2;
+}
+
+.ctechs-services__description {
+    margin: 0;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    font-size: 1.2rem;
+    max-width: 100%;
+}
+
+.ctechs-services__icon {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) and (max-width: 991px) {
+
+    .ctechs-services__card-header img {
+        max-width: 120px;
+    }
+
+    .ctechs-services__title {
+        font-size: 2.2rem;
+    }
+
+    .ctechs-services__description {
+        font-size: 1.3rem;
+        max-width: 90%;
+    }
+
+    .ctechs-services__icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .ctechs-services__card {
+        padding: 30px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .ctechs-services {
+        max-width: 1200px;
+        /* O el ancho máximo que prefieras */
+        padding: 0 var(--padding-x);
+    }
+
+    .ctechs-services__card-header img {
+        max-width: 150px;
+    }
+
+    .ctechs-services__card {
+        padding: 40px;
+    }
+
+    .ctechs-services__title {
+        font-size: 2.5rem;
+        /* Tamaño más grande para desktop */
+    }
+
+    .ctechs-services__description {
+        font-size: 1.4rem;
+        /* Tamaño más grande para desktop */
+        max-width: 80%;
+    }
+
+    .ctechs-services__icon {
+        width: 40px;
+        height: 40px;
+    }
+}

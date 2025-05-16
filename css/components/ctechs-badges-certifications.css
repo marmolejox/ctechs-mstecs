@@ -1,0 +1,71 @@
+.ctechs-certifications-badges-section {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ctechs-certifications-badges-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    padding: 1rem;
+}
+
+.ctechs-certifications-badges-logo {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ctechs-certifications-badges-logo img {
+    max-height: 50px;
+    width: auto;
+    max-width: 100%;
+}
+
+.ctechs-certifications-card {
+    background: var(--color-gray-30);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ctechs-certifications-card img {
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ctechs-certifications-badges-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .ctechs-certifications-badges-logo {
+        flex: 0 0 auto;
+    }
+    
+    .ctechs-certifications-card {
+        justify-content: center;
+    }
+    
+    .ctechs-certifications-card img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ctechs-certifications-card img {
+        height: 60px;
+    }
+}
