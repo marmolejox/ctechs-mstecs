@@ -11,19 +11,34 @@
 }
 
 .ctechs-partners-certifications-logos {
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 .partner-certifications-logo {
-    width: 100px;
-    height: 60px;
+    width: 350px;
+    height: 100px;
     object-fit: contain;
     object-position: center;
     background: #fff;
+}
+
+@media (max-width: 900px) {
+    .ctechs-partners-certifications-logos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ctechs-partners-certifications-logos {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 }
 
 @media (max-width: 900px) {
