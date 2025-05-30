@@ -65,18 +65,18 @@
     .mstecs-hero {
         padding: 2rem 1.5rem;
         min-height: 45vh;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
     .mstecs-hero-title {
         font-size: 2rem;
         max-width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .mstecs-hero-list {
         font-size: 1.1rem;
         max-width: 100%;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -84,18 +84,17 @@
     .mstecs-hero {
         padding: 1.5rem 1rem;
         min-height: 35vh;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
     .mstecs-hero-title {
         font-size: 1.4rem;
-        text-align: center;
+        text-align: left;
     }
     .mstecs-hero-list {
-        text-align: center;
+        text-align: left;
     }
     .mstecs-hero-list-item {
         font-size: 1rem;
-        color: white;
     }
 }

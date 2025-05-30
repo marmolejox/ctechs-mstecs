@@ -90,26 +90,16 @@
     line-height: 1.5;
 }
 
-/* Responsive */
-@media (max-width: 1100px) {
-    .mstecs-services-cards {
-        gap: 20px;
-    }
-    .mstecs-services-card {
-        min-width: 220px;
-        max-width: 260px;
-        padding: 24px 16px 20px 16px;
-    }
-}
-
-@media (max-width: 800px) {
+/* Responsive Design */
+@media (max-width: 768px) {
     .mstecs-services-cards {
         flex-direction: column;
         align-items: center;
-        gap: 24px;
     }
+
     .mstecs-services-card {
-        width: 90%;
-        max-width: 400px;
+        max-width: 100%;
     }
 }
+
+

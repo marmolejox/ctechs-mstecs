@@ -5,9 +5,9 @@ const translations = {
         "services-button": "Nuestros servicios",
         "certifications-button": "Certificaciones",
         "contact-button": "Contacto",
-        "ctechs-hero-title": "Líderes",
+        /*"ctechs-hero-title": "Líderes",
         "ctechs-hero-subtitle": "en tecnologías de la nube",
-        "ctechs-hero-description": "Responsabilidad Honestidad Perseverancia",
+        "ctechs-hero-description": "Responsabilidad Honestidad Perseverancia",*/
         "ctechs-hero-secondslide-firsttitle": "instructores",
         "ctechs-hero-secondslide-secondtitle": "soporte",
         "ctechs-hero-secondslide-thirdtitle": "certificaciones",

@@ -200,10 +200,16 @@
     }
 
     .mstecs-features-cards {
-        grid-template-columns: 1fr;
+        grid-template-rows: auto;
         gap: 24px;
     }
     .mstecs-feature-card {
         padding: 24px 12px;
     }
+    .mstecs-features-cards-3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 24px;
+    }
 }
+
