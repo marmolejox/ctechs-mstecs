@@ -43,7 +43,7 @@ const translations = {
         /* Mstecs */
         "mstecs-header-contact": "Contacto",
         "callus": "Comunícate<br> +52 449 284 1532",
-        "mailus": "Cotiza directamente<br> correo@mstecs.com",
+        "mailus": "Cotiza directamente<br> contact@mstecs.com",
         "mstecs-hero-title": "Líderes en tecnología",
         "mstecs-hero-list-item1": "Ventas",
         "mstecs-hero-list-item2": "Licenciamiento",
@@ -64,56 +64,136 @@ const translations = {
         "mstecs-services-title": "Servicios",
         "mstecs-services-subtitle": "Somos socios Microsoft por lo que nuestros entrenadores están altamente capacitados.",
         "mstecs-allies-title": "Nuestros aliados",
-        /*Microsoft*/
-        "mstecs-features-title-microsoft": "PLANES PYME",
-        "application": "APLICACIONES",
-        "basic": "Empresa Básico",
-        "standard": "Empresa Estándar",
-        "premium": "Empresa Premium",
-        "for-busisness": "para negocios",
-        "from": "DESDE",
-        "from2": "DESDE",
-        "from3": "DESDE",
-        "from4": "DESDE",
-        "per-user": "por usuario al mes",
-        "per-user2": "por usuario al mes",
-        "per-user3": "por usuario al mes",
-        "per-user4": "por usuario al mes",
-        "anual-month": "(Planes anuales y mensuales adaptados a tus necesidades)",
-        "anual-month2": "(Planes anuales y mensuales adaptados a tus necesidades)",
-        "anual-month3": "(Planes anuales y mensuales adaptados a tus necesidades)",
-        "anual-month4": "(Planes anuales y mensuales adaptados a tus necesidades)",
-        "quote": "Cotizar ahora",
-        "quote2": "Cotizar ahora",
-        "quote3": "Cotizar ahora",
-        "quote4": "Cotizar ahora",
-        "app-first-start": "Aplicaciones y servicios para poner en marcha tu negocio, entre los que se incluyen:",
-        "basic-list": "<li>Administración de identidades, accesos y usuarios para hasta 300 empleados</li><li>Correo empresarial personalizado (tú@tunegocio.com)</li><li>Versiones web y móviles de Word, Excel, PowerPoint y Outlook</li><li>Chats, llamadas y videoconferencias con Microsoft Teams</li><li>1 TB de almacenamiento en la nube por empleado</li><li>Más de 10 aplicaciones adicionales para tus necesidades empresariales (Microsoft Bookings, Planner, Forms y otras)</li><li>Filtrado automático de correo no deseado y malware</li><li>Soporte ininterrumpido por teléfono y a través de la Web</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
-        "secure-services": "Servicios seguros en la nube:",
-        "only-web-and-mobile": "Solo aplicaciones web y móviles:",
-        "includes": "Todo lo que incluye la versión Empresa Básico y además:",
-        "standard-list": "<li>Versiones web de Word, Excel, PowerPoint y Outlook</li><li>Seminarios web con informes y registros de asistentes</li><li>Áreas de trabajo colaborativas para crear de forma conjunta con Microsoft Loop</li><li>Herramientas de edición y diseño de vídeo con Microsoft Clipchamp</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
-        "secure-services-2": "Servicios seguros en la nube y aplicaciones de escritorio, web y móviles:",
-        "includes2": "Todo lo que incluye la versión Empresa Básico y además:",
-        "includes3": "Todo lo que incluye la versión Empresa Estándar y además:",
-        "includes4": "Todo lo que incluye la versión Empresa Estándar y además:",
-        "includes5": "Todo lo que incluye la versión Empresa Estándar y además:",
-        "includes6": "Todo lo que incluye la versión Empresa Estándar y además:",
-        "premium-list": "<li>Administración de identidad y acceso avanzada</li><li>Protección mejorada frente a ciberamenazas contra virus y ataques de phishing</li><li>Protección de dispositivos y puntos de conexión de grado empresarial</li><li>Descubre, clasifica y protege información confidencial</li><li>Microsoft 365 Copilot está dispnible como complemento</li>",
-        "application-list": "<li>Versiones web de Word, Excel, PowerPoint y Outlook</li><li>1 TB de almacenamiento en la nube por usuario</li><li>Soporte ininterrumpido por teléfono y a través de la Web</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
-        /*Office*/
-        "mstecs-features-title-office": "PLANES EMPRESARIAL",
-        "without-teams-1": "Sin Teams",
-        "without-teams-2": "Sin Teams",
-        "without-teams-3": "Sin Teams",
-        "e1-list": "<li>Microsoft 365 en la Web con permisos de creación y edición para las versiones online de las Aplicaciones de Microsoft 365 principales.</li><li>Correo electrónico, almacenamiento y uso compartido de archivos.</li><li>1 TB de almacenamiento en la nube de OneDrive.</li><li>Soporte ininterrumpido por teléfono y a través de la Web.</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
-        "e3-list": "<li>Puedes instalar Aplicaciones de Microsoft 365 en hasta cinco equipos PC o Mac, cinco tabletas y cinco dispositivos móviles.</li><li>Cifrado de mensajes.</li><li>Administración de derechos.</li><li>Prevención de pérdida de datos para correo electrónico y archivos.</li><li>Microsoft 365 Copilot está disponible como complemento.</li>",
-        "e5-list": "<li>Capacidades avanzadas de seguridad y cumplimiento.</li><li>Análisis de negocios escalable con Power BI.</li><li>Microsoft 365 Copilot está disponible como complemento.</li>",
-        /* Google */
-        "business-starter": "<li>30 GB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com<li><li>Asistente de IA de Gemini en Gmail**</li><li>Chatea con la IA en la app de Gemini**</li><li>Videoconferencias de 100 participantes</li><li>Controles de seguridad y administración</li><li>Soporte técnico 24/7</li>",
-        "business-standard": "<li>2 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 150 participantes, grabación y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad y administración</li>",
-        "business-plus": "<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 500 participantes, grabación, seguimiento de la asistencia y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Seguridad y controles de administración mejorados, incluidos Vault y administración avanzada de extremos</li>",
-        "enterprise-applications": "<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 1,000 participantes, grabación, seguimiento de la asistencia, cancelación de ruido y transmisión en vivo dentro del dominio</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad, administración y cumplimiento avanzados, incluidos Vault, DLP, regiones de datos y administración empresarial de extremos</li><li>Asistencia mejorada***</li>",
+
+
+        /*  =========================================
+            |                                       |
+            |           Microsoft Translations      |
+            |                                       |
+            =========================================
+        */
+
+
+        "mstecs-ft-microsoft-title": "PLANES PYME",
+
+        /* Titles */
+        "basic-plan": "Empresa Básico",
+        "standard-plan": "Empresa Estándar",
+        "premium-plan": "Empresa Premium",
+        "business-applications": "Aplicaciones para negocios",
+        /* ------ */
+
+        /* Quotes */
+        "quote-basic": "Cotizar ahora",
+        "quote-standard": "Cotizar ahora",
+        "quote-premium": "Cotizar ahora",
+        "quote-applications": "Cotizar ahora",
+        /* ----- */
+
+        /* Descriptions */
+        "basic-description": "Aplicaciones y servicios para poner en marcha tu negocio, entre los que se incluyen:",
+        "applications-description": "Todo lo que incluye la versión Empresa Estándar y además:",
+        "standard-description": "Todo lo que incluye la versión Empresa Básico y además:",
+        "premium-description": "Todo lo que incluye la versión Empresa Estándar y además:",
+        /* ------------ */
+
+        /* Cloud Services Secure */
+        "basic-cloud-services": "Servicios seguros en la nube:",
+        "basic-web-mobile": "Solo aplicaciones web y móviles:",
+        "applications-cloud-services": "Servicios seguros en la nube:",
+        "standard-cloud-services": "Servicios seguros en la nube:",
+        "premium-cloud-services": "Servicios seguros en la nube y aplicaciones de escritorio, web y móviles:",
+        /* --------------------- */
+
+        /* Features */
+        "basic-features": "<li>Administración de identidades, accesos y usuarios para hasta 300 empleados</li><li>Correo empresarial personalizado (tú@tunegocio.com)</li><li>Versiones web y móviles de Word, Excel, PowerPoint y Outlook</li><li>Chats, llamadas y videoconferencias con Microsoft Teams</li><li>1 TB de almacenamiento en la nube por empleado</li><li>Más de 10 aplicaciones adicionales para tus necesidades empresariales (Microsoft Bookings, Planner, Forms y otras)</li><li>Filtrado automático de correo no deseado y malware</li><li>Soporte ininterrumpido por teléfono y a través de la Web</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
+        "standard-features": "<li>Versiones web de Word, Excel, PowerPoint y Outlook</li><li>Seminarios web con informes y registros de asistentes</li><li>Áreas de trabajo colaborativas para crear de forma conjunta con Microsoft Loop</li><li>Herramientas de edición y diseño de vídeo con Microsoft Clipchamp</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
+        "premium-features": "<li>Administración de identidad y acceso avanzada</li><li>Protección mejorada frente a ciberamenazas contra virus y ataques de phishing</li><li>Protección de dispositivos y puntos de conexión de grado empresarial</li><li>Descubre, clasifica y protege información confidencial</li><li>Microsoft 365 Copilot está dispnible como complemento</li>",
+        "applications-features": "<li>Versiones web de Word, Excel, PowerPoint y Outlook</li><li>1 TB de almacenamiento en la nube por usuario</li><li>Soporte ininterrumpido por teléfono y a través de la Web</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
+        /* -------- */
+
+        
+        /*  =========================================
+            |                                       |
+            |           Office Translations         |
+            |                                       |
+            =========================================
+        */
+
+        "office-plans-title": "Planes Empresarial",
+
+        /* Without Teams */
+        "e1-no-teams":"Sin Teams",
+        "e3-no-teams":"Sin Teams",
+        "e5-no-teams":"Sin Teams",
+        /* ------------ */
+
+        /* Quotes */
+        "e1-quote":"Cotizar ahora",
+        "e3-quote":"Cotizar ahora",
+        "e5-quote":"Cotizar ahora",
+        /* ------ */
+
+        /* Description */
+        "e1-description":"Todo lo que incluye la versión Empresa Básico y además:",
+        "e3-description":"Todo lo que incluye la versión Empresa Estándar y además:",
+        "e5-description":"Todo lo que incluye la versión Empresa Estándar y además:",
+        /* ----------- */
+
+        /* Features */
+        "e1-features": "<li>Microsoft 365 en la Web con permisos de creación y edición para las versiones online de las Aplicaciones de Microsoft 365 principales.</li><li>Correo electrónico, almacenamiento y uso compartido de archivos.</li><li>1 TB de almacenamiento en la nube de OneDrive.</li><li>Soporte ininterrumpido por teléfono y a través de la Web.</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
+        "e3-features": "<li>Puedes instalar Aplicaciones de Microsoft 365 en hasta cinco equipos PC o Mac, cinco tabletas y cinco dispositivos móviles.</li><li>Cifrado de mensajes.</li><li>Administración de derechos.</li><li>Prevención de pérdida de datos para correo electrónico y archivos.</li><li>Microsoft 365 Copilot está disponible como complemento.</li>",
+        "e5-features": "<li>Capacidades avanzadas de seguridad y cumplimiento.</li><li>Análisis de negocios escalable con Power BI.</li><li>Microsoft 365 Copilot está disponible como complemento.</li>",
+        /* -------- */
+
+        /* Secure Services */
+        "e1-secure": "Servicios seguros en la nube y aplicaciones de escritorio, web y móviles:",
+        "e3-secure": "Todo lo que incluye la versión Empresa Estándar y además:",
+        "e5-secure": "Todo lo que incluye la versión Empresa Estándar y además:",
+        /* --------------- */
+
+        /*  =========================================
+            |                                       |
+            |           Google Translations         |
+            |                                       |
+            =========================================
+        */
+
+        /* Pre-Titles */
+        "starter-pretitle":"Plan",
+        "standard-pretitle":"Plan",
+        "plus-pretitle":"Plan",
+        "customplan-pretitle":"Aplicaciones",
+        /* ---------- */
+
+        /* Titles */
+        "starter-title":"Business Starter",
+        "standard-title":"Business Standard",
+        "plus-title":"Business Plus",
+        "customplan-title":"Enterprise",
+        /* ------ */
+        
+        /* Quotes */
+        "starter-quote":"Cotizar ahora",
+        "standard-quote":"Cotizar ahora",
+        "plus-quote":"Cotizar ahora",
+        "customplan-quote":"Cotizar ahora",
+        /* ------ */
+
+        /* Description */
+        "starter-description":"Aplicaciones y servicios para poner en marcha tu negocio, incluyendo:",
+        "standard-description":"Todo lo incluido en la versión 'Empresa Básico' y más:",
+        "plus-description":"Todo lo incluido en la versión 'Empresa Estándar' y más:",
+        "customplan-description":"Todo lo incluido en la versión 'Empresa Estándar' y más:",
+        /* ----------- */
+
+        /* Features */
+        "starter-features":"<li>30 GB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com<li><li>Asistente de IA de Gemini en Gmail**</li><li>Chatea con la IA en la app de Gemini**</li><li>Videoconferencias de 100 participantes</li><li>Controles de seguridad y administración</li><li>Soporte técnico 24/7</li>",
+        "standard-features":"<li>2 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 150 participantes, grabación y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad y administración</li>",
+        "plus-features":"<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 500 participantes, grabación, seguimiento de la asistencia y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Seguridad y controles de administración mejorados, incluidos Vault y administración avanzada de extremos</li>",
+        "customplan-features":"<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 1,000 participantes, grabación, seguimiento de la asistencia, cancelación de ruido y transmisión en vivo dentro del dominio</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad, administración y cumplimiento avanzados, incluidos Vault, DLP, regiones de datos y administración empresarial de extremos</li><li>Asistencia mejorada***</li>",
+        /* -------- */
+
         "communicatewithus": "Comunícate con Ventas para conocer los precios",
         /* Azure */
         "azure-desc": "Obtén asesoramiento individualizado sobre los precios de Azure",
@@ -180,7 +260,7 @@ const translations = {
         "certifications-title": "<strong>Certifications</strong>",
         "mstecs-header-contact": "Contact",
         "callus": "Call us<br> +52 449 284 1532",
-        "mailus": "Mail us<br> correo@mstecs.com",
+        "mailus": "Mail us<br> contact@mstecs.com",
         "mstecs-hero-title": "Leaders in technology",
         "mstecs-hero-list-item1": "Sales",
         "mstecs-hero-list-item2": "Licensing",
@@ -201,57 +281,159 @@ const translations = {
         "mstecs-services-title": "Services",
         "mstecs-services-subtitle": "We are Microsoft partners so our trainers are highly qualified.",
         "mstecs-allies-title": "Our allies",
-        "mstecs-features-title-microsoft": "SMB PLANS",
-        "application": "APPLICATIONS",
-        "basic": "Basic Business",
-        "standard": "Standard Business",
-        "premium": "Premium Business",
-        "for-busisness": "for business",
-        "from": "FROM",
-        "from2": "FROM",
-        "from3": "FROM",
-        "from4": "FROM",
-        "per-user": "per user/month",
-        "per-user2": "per user/month",
-        "per-user3": "per user/month",
-        "per-user4": "per user/month",
-        "anual-month": "(Annual and monthly plans tailored to your needs)",
-        "anual-month2": "(Annual and monthly plans tailored to your needs)",
-        "anual-month3": "(Annual and monthly plans tailored to your needs)",
-        "anual-month4": "(Annual and monthly plans tailored to your needs)",
-        "quote": "Contact sales",
-        "quote2": "Contact sales",
-        "quote3": "Contact sales",
-        "quote4": "Contact sales",
-        "app-first-start": "Applications and services to get your business up and running, including:",
-        "basic-list": "<li>Identity, access, and user management for up to 300 employees</li><li>Personalized business email (you@yourbusiness.com)</li><li>Web and mobile versions of Word, Excel, PowerPoint, and Outlook</li><li>Chats, calls, and video conferences with Microsoft Teams</li><li>1 TB of cloud storage per employee</li><li>Over 10 additional apps for your business needs (Microsoft Bookings, Planner, Forms, and others)</li><li>Automatic spam and malware filtering</li><li>24/7 support by phone and web</li><li>Microsoft 365 Copilot is available as an add-on</li>",
-        "secure-services": "Secure cloud services:",
-        "only-web-and-mobile": "Web and mobile applications only:",
-        "includes": "Everything included in the Basic Busisness version and more:",
-        "standard-list": "<li>Web versions of Word, Excel, PowerPoint, and Outlook</li><li>Webinars with attendee reports and registrations</li><li>Collaborative workspaces to co-create with Microsoft Loop</li><li>Video editing and design tools with Microsoft Clipchamp</li><li>Microsoft 365 Copilot is available as an add-on</li>",
-        "secure-services-2": "Secure cloud services and desktop, web and mobile applications:",
-        "includes2": "Everything included in the Basic Enterprise version and more:",
-        "includes3": "Everything included in the Standard Enterprise version and more:",
-        "includes4": "Everything included in the Standard Enterprise version and more:",
-        "includes5": "Everything included in the Standard Enterprise version and more:",
-        "includes6": "Everything included in the Standard Enterprise version and more:",
-        "premium-list": "<li>Advanced identity and access management</li><li>Enhanced protection against cyber threats such as viruses and phishing attacks</li><li>Enterprise-grade device and endpoint protection</li><li>Discover, classify, and protect sensitive information</li><li>Microsoft 365 Copilot is available as an add-on</li>",
-        "application-list": "<li>Web versions of Word, Excel, PowerPoint, and Outlook</li><li>1 TB of cloud storage per user</li><li>24/7 support by phone and web</li><li>Microsoft 365 Copilot is available as an add-on</li>",
-        /* Office Site*/
-        "mstecs-features-title-office": "BUSINESS PLANS",
-        "without-teams-1": "Without Teams",
-        "without-teams-2": "Without Teams",
-        "without-teams-3": "Without Teams",
-        "e1-list": "<li>Microsoft 365 on the Web with creation and editing permissions for the online versions of the main Microsoft 365 Apps.</li><li>Email, file storage, and sharing.</li><li>1 TB of OneDrive cloud storage.</li><li>24/7 support by phone and web.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
-        "e3-list": "<li>You can install Microsoft 365 Apps on up to five PCs or Macs, five tablets, and five mobile devices.</li><li>Message encryption.</li><li>Rights management.</li><li>Data loss prevention for email and files.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
-        "e5-list": "<li>Advanced security and compliance capabilities.</li><li>Scalable business analytics with Power BI.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
-        /* Google */
-        "business-starter": "<li>30 GB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail**</li><li>Chat with AI in the Gemini app**</li><li>Video meetings with up to 100 participants</li><li>Security and admin controls</li><li>24/7 support</li>",
-        "business-standard": "<li>2 TB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 150 participants, recording, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Security and admin controls</li>",
-        "business-plus": "<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 500 participants, recording, attendance tracking, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Enhanced security and admin controls, including Vault and advanced endpoint management</li>",
-        "enterprise-applications": "<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 1,000 participants, recording, attendance tracking, noise cancellation, and live streaming within the domain</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Advanced security, admin, and compliance controls, including Vault, DLP, data regions, and enterprise endpoint management</li><li>Enhanced support***</li>",
-        "communicatewithus": "Contact Sales for pricing information",
-        /* Azure */
+
+
+
+
+
+        /*  =========================================
+            |                                       |
+            |        Microsoft Translations         |
+            |                                       |
+            =========================================
+        */
+
+        "mstecs-ft-microsoft-title": "SMB PLANS",
+
+        /* Plans */
+        "basic-plan": "Basic Business",
+        "standard-plan": "Standard Business",
+        "premium-plan": "Premium Business",
+        "business-applications": "Applications for Business",
+        /* ----- */
+
+        /* Quotes */
+        "quote-basic": "Contact sales",
+        "quote-standard": "Contact sales",
+        "quote-premium": "Contact sales",
+        "quote-applications": "Contact sales",
+        /* ----- */
+
+        /* Descriptions */
+        "basic-description": "Applications and services to get your business up and running, including:",
+        "standard-description": "Everything included in the Basic Enterprise version and more:",
+        "premium-description": "Everything included in the Standard Enterprise version and more:",
+        "applications-description": "Everything included in the Standard Enterprise version and more:",
+        /* ------------ */
+
+        /* Cloud Services Secure */
+        "basic-cloud-services": "Secure cloud services:",
+        "basic-web-mobile": "Web and mobile applications only:",
+        "applications-cloud-services": "Secure cloud services:",
+        "standard-cloud-services": "Secure cloud services:",
+        "premium-cloud-services": "Secure cloud services and desktop, web and mobile applications:",
+        /* --------------------- */
+
+        /* Features */
+        "basic-features": "<li>Identity, access, and user management for up to 300 employees</li><li>Personalized business email (you@yourbusiness.com)</li><li>Web and mobile versions of Word, Excel, PowerPoint, and Outlook</li><li>Chats, calls, and video conferences with Microsoft Teams</li><li>1 TB of cloud storage per employee</li><li>Over 10 additional apps for your business needs (Microsoft Bookings, Planner, Forms, and others)</li><li>Automatic spam and malware filtering</li><li>24/7 support by phone and web</li><li>Microsoft 365 Copilot is available as an add-on</li>",
+        "standard-features": "<li>Web versions of Word, Excel, PowerPoint, and Outlook</li><li>Webinars with attendee reports and registrations</li><li>Collaborative workspaces to co-create with Microsoft Loop</li><li>Video editing and design tools with Microsoft Clipchamp</li><li>Microsoft 365 Copilot is available as an add-on</li>",
+        "premium-features": "<li>Advanced identity and access management</li><li>Enhanced protection against cyber threats such as viruses and phishing attacks</li><li>Enterprise-grade device and endpoint protection</li><li>Discover, classify, and protect sensitive information</li><li>Microsoft 365 Copilot is available as an add-on</li>",
+        "applications-features": "<li>Web versions of Word, Excel, PowerPoint, and Outlook</li><li>1 TB of cloud storage per user</li><li>24/7 support by phone and web</li><li>Microsoft 365 Copilot is available as an add-on</li>",
+        /* -------- */
+
+
+
+
+
+
+        /*  =========================================
+            |                                       |
+            |           Office Translations         |
+            |                                       |
+            =========================================
+        */
+
+        "office-plans-title": "Business Plans",
+
+        /* Without Teams */
+        "e1-no-teams":"Without Teams",
+        "e3-no-teams":"Without Teams",
+        "e5-no-teams":"Without Teams",
+        /* ------------ */
+
+        /* Quotes */
+        "e1-quote":"Contact Sales",
+        "e3-quote":"Contact Sales",
+        "e5-quote":"Contact Sales",
+        /* ------ */
+
+        /* Description */
+        "e1-description":"Everything included in the 'Basic Business' version and more:",
+        "e3-description":"Everything included in the 'Standard Business' version and more:",
+        "e5-description":"Everything included in the 'Standard Business' version and more:",
+        /* ----------- */
+
+        /* Features */
+        "e1-features": "<li>Microsoft 365 on the Web with creation and editing permissions for the online versions of the main Microsoft 365 Apps.</li><li>Email, file storage, and sharing.</li><li>1 TB of OneDrive cloud storage.</li><li>24/7 support by phone and web.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
+        "e3-features": "<li>You can install Microsoft 365 Apps on up to five PCs or Macs, five tablets, and five mobile devices.</li><li>Message encryption.</li><li>Rights management.</li><li>Data loss prevention for email and files.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
+        "e5-features": "<li>Advanced security and compliance capabilities.</li><li>Scalable business analytics with Power BI.</li><li>Microsoft 365 Copilot is available as an add-on.</li>",
+        /* -------- */
+
+        /* Secure Services */
+        "e1-secure": "Secure cloud services and desktop, web, and mobile applications:",
+        "e3-secure": "Everything included in the 'Standard Business' version and more:",
+        "e5-secure": "Everything included in the 'Standard Business' version and more:",
+        /* --------------- */
+
+
+
+
+
+
+
+        /*  =========================================
+            |                                       |
+            |           Google Translations         |
+            |                                       |
+            =========================================
+        */
+
+        /* Pre-Titles */
+        "starter-pretitle":"Plan",
+        "standard-pretitle":"Plan",
+        "plus-pretitle":"Plan",
+        "customplan-pretitle":"Applications",
+        /* ---------- */
+
+        /* Titles */
+        "starter-title":"Business Starter",
+        "standard-title":"Business Standard",
+        "plus-title":"Business Plus",
+        "customplan-title":"Enterprise",
+        /* ------ */
+        
+        /* Quotes */
+        "starter-quote":"Contact Sales",
+        "standard-quote":"Contact Sales",
+        "plus-quote":"Contact Sales",
+        "customplan-quote":"Contact Sales",
+        /* ------ */
+
+        /* Description */
+        "starter-description":"Applications and services to get your business up and running, including:",
+        "standard-description":"Everything included in the 'Basic Business' version and more:",
+        "plus-description":"Everything included in the 'Basic Standard' version and more:",
+        "customplan-description":"Everything included in the 'Basic Standard' version and more:",
+        /* ----------- */
+
+        /* Features */
+        "starter-features":"<li>30 GB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail**</li><li>Chat with AI in the Gemini app**</li><li>Video meetings with up to 100 participants</li><li>Security and admin controls</li><li>24/7 support</li>",
+        "standard-features":"<li>2 TB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 150 participants, recording, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Security and admin controls</li>",
+        "plus-features":"<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 500 participants, recording, attendance tracking, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Enhanced security and admin controls, including Vault and advanced endpoint management</li>",
+        "customplan-features":"<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 1,000 participants, recording, attendance tracking, noise cancellation, and live streaming within the domain</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Advanced security, admin, and compliance controls, including Vault, DLP, data regions, and enterprise endpoint management</li><li>Enhanced support***</li>",
+        /* -------- */
+
+
+
+
+
+        /*  =========================================
+            |                                       |
+            |           Azure Translations          |
+            |                                       |
+            =========================================
+        */
+
         "azure-desc": "Get personalized advice on Azure pricing",
         "price-calculator": "Price calculator",
         "price-calculator-desc": "Configure Azure products and calculate their costs.",
