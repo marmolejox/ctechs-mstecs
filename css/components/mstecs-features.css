@@ -357,7 +357,6 @@ body {
 
 .mstecs-ft-google-card-title {
     color: var(--color-blue-mstecs);
-    /* Puedes definir esta variable en :root si no existe */
     font-size: 30px;
     font-weight: 900;
     padding: 0;
@@ -430,7 +429,7 @@ body {
             width: 350px;
             height: auto;
         }
-        
+
     }
 }
 
