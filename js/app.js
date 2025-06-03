@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', function () {
     const scrollButton = document.querySelector('.scroll-top-btn');
 
-    // Mostrar u ocultar el botón según la posición del scroll
+
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > 300) {
             scrollButton.style.display = 'flex';
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Scroll suave al hacer clic
+
     scrollButton.addEventListener('click', function () {
         window.scrollTo({
             top: 0,
