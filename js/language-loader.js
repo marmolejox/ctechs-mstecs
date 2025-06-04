@@ -1,55 +1,134 @@
 const translations = {
     "es": {
-        "we-are-button": "Quiénes somos",
+
+/*
+                   _____ _______ ______ _____ _    _        _____ 
+                  / ____|__   __|  ____/ ____| |  | |      / ____|
+                 | |       | |  | |__ | |    | |__| |_____| (___  
+                 | |       | |  |  __|| |    |  __  |______\___ \ 
+                 | |____   | |  | |___| |____| |  | |      ____) |
+                  \_____|  |_|  |______\_____|_|  |_|     |_____/ 
+
+*/
+
+        /* Navbar */
+        "we-are-button": "Quienes somos",
         "partners-button": "Socios",
         "services-button": "Nuestros servicios",
         "certifications-button": "Certificaciones",
         "contact-button": "Contacto",
+        /* ------ */
+
+
+        /*  =========================================
+            |                                       |
+            |           Index Translations          |
+            |                                       |
+            =========================================
+        */
+
+        /* Hero */
         /*"ctechs-hero-title": "Líderes",
         "ctechs-hero-subtitle": "en tecnologías de la nube",
         "ctechs-hero-description": "Responsabilidad Honestidad Perseverancia",*/
         "ctechs-hero-secondslide-firsttitle": "instructores",
         "ctechs-hero-secondslide-secondtitle": "soporte",
         "ctechs-hero-secondslide-thirdtitle": "certificaciones",
+        /* ---- */
+
+        /* Who Are We */
         "whoweare-title": "quienes . somos",
         "whoweare-desc": "Somos una empresa con más de 10 años en el mercado dedicada a brindar servicios y soluciones de entrenamiento y consultoría basadas en plataformas en la nube como Amazon Web Services, Google Cloud Partner y CompTIA.<br><br>Buscando contribuir al desarrollo tecnológico de cada empresa, contamos con un equipo de ingenieros y entrenadores altamente capacitados y certificados.",
+        /* ---------- */
+
+        /* Our Benefits */
         "ourbenefits-title": "nuestros<br> <strong>beneficios</strong>",
         "personel-text": "<strong>Personal especializado</strong><br>en gestión de asignaciones y calendarios",
         "attention-text": "<strong>Atención personalizada</strong><br>a nivel de gestión",
         "specialists-text": "<strong>Especialistas asignados</strong><br>para atender las consultas de sus clientes",
-        "acquisition": "<strong class='span-blue'>Adquisición y renovación</strong><br>plan para nuevas y existentes <strong class='span-blue'>certificaciones</strong> en el mercado",
-        "real-time": "<strong class='span-blue'>Tiempo real</strong><br>equipo de soporte asignado a cada sesión",
-        "dedicated": "<strong class='span-blue'>Aprendizaje y desarrollo dedicados</strong><br>proceso de habilidades andragógicas para cada instructor",
+        "acquisition": "<strong class='span-blue'>Adquisición y renovación de planes</strong><br>para <strong class='span-blue'>certificaciones</strong> nuevas y existentes en el mercado",
+        "real-time": "<strong class='span-blue'>Soporte en tiempo real</strong><br>equipo de soporte asignado a cada sesión",
+        "dedicated": "<strong class='span-blue'>Aprendizaje y desarrollo dedicado</strong><br>proceso de habilidades andragógicas para cada instructor",
         "continous": "<strong class='span-blue'>Entrenamiento continuo</strong><br>sobre herramientas y plataformas de capacitación",
         "high-adaptability": "<strong class='span-blue'>Alta adaptabilidad</strong><br>a nuevas plataformas, metodologías, procesos y herramientas corporativas internas",
+        /* ------------ */
+
+        /* Contact Us */
         "contactus-title": "Contáctanos",
         "contact-name-placeholder": "Tu nombre",
         "contact-email-placeholder": "Tu correo",
         "contact-phone-placeholder": "Tu teléfono",
         "send-request": "Enviar solicitud",
+        /* ---------- */
+
+        /*  =========================================
+            |                                       |
+            |           Partners Translations       |
+            |                                       |
+            =========================================
+        */
+
+
         "partners": "<strong>socios</strong>",
         "partners-text": "Ofrecemos instructores especializados a centros de formación<br> y socios de aprendizaje de todo el mundo.",
-        "services-title": "nuestros<br> <strong>servicios</strong>",
-        "services-highligth": "Contamos con <strong class='text-color-orange'>la mejor tecnología</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>consultores certificados</strong> para ofrecerle servicios de calidad",
-        "training-title": "Entrenamiento",
-        "training-desc": "Contamos con instructores nativos y expertos en diferentes idiomas, como inglés, español, francés, portugués y otros. Avalados por diez años en el mercado, todos nuestros formadores están certificados.",
-        "consulting-title": "Consultoria",
-        "consulting-desc": "Ofrecemos soluciones de formación impartidas por expertos en el ámbito tecnológico que ayudan a la empresa y a sus empleados a mejorar sus competencias técnicas.",
-        "managed-title": "Servicios Administrados",
-        "managed-desc": "Ofrecemos soluciones de gestión de escritorios, servidores y dispositivos cliente que ayudan a nuestros clientes a reducir la complejidad de la gestión de la infraestructura así como de los servicios administrativos, acelerando el retorno de la inversión y proporcionando recursos que aseguren la correcta gestión de los servicios Cloud.",
-        "cloud-title": "Implementación de tecnología en la nube",
-        "cloud-desc": "Ofrecemos consultoría, administración e implementación de servicios en la nube, facilitando las plataformas de nuestros clientes, utilizando tecnologías de punta que nos posicionan como líderes en el mercado.",
+
+
+        /*  =========================================
+            |                                       |
+            |           Services Translations       |
+            |                                       |
+            =========================================
+        */
+
+"services-title": "nuestros<br> <strong>servicios</strong>",
+"services-highligth": "Contamos con <strong class='text-color-orange'>la mejor tecnología</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>consultores certificados</strong> para ofrecerle servicios de calidad",
+"training-title": "Entrenamiento",
+"training-desc": "Contamos con <strong>instructores nativos</strong> y expertos en diferentes idiomas, como inglés, español, francés, portugués y otros. Avalados por diez años en el mercado, todos nuestros formadores están <strong>certificados</strong>.",
+"licensing-title": "Licenciamiento",
+"licensing-desc": "Contribuimos <strong>a que tu empresa optimice</strong> el licenciamiento adecuado para tu negocio, <strong>adaptado</strong> a tus necesidades operativas. <strong>Potencializa</strong> la colaboración de tu equipo con soluciones tecnológicas confiables y actualizadas directamente de uno de los líderes en tecnología.",
+"consulting-title": "Consultoría",
+"consulting-desc": "Ofrecemos soluciones de formación impartidas por expertos en el ámbito tecnológico que ayudan a la empresa y a sus empleados a mejorar sus <strong>competencias técnicas</strong>.",
+"managed-title": "Servicios Administrados",
+"managed-desc": "Ofrecemos soluciones de gestión de escritorios, servidores y dispositivos cliente que ayudan a nuestros clientes a reducir la complejidad de la gestión de la infraestructura, así como de los servicios administrativos, acelerando el retorno de la inversión y proporcionando recursos que aseguren la correcta gestión de los servicios Cloud.",
+"cloud-title": "Implementación de tecnología en la nube",
+"cloud-desc": "Ofrecemos consultoría, administración e implementación de servicios en la nube, facilitando las plataformas de nuestros clientes, utilizando <strong>tecnologías de punta</strong> que nos posicionan como líderes en el mercado.",
+
+        /*  =========================================
+            |                                       |
+            |     Certifications Translations       |
+            |                                       |
+            =========================================
+        */
+
         "certifications-title": "<strong>Certificaciones</strong>",
-        /* Mstecs */
+
+
+
+
+/*
+                        __  _______________________________
+                       /  |/  / ___/_  __/ ____/ ____/ ___/
+                      / /|_/ /\__ \ / / / __/ / /    \__ \ 
+                     / /  / /___/ // / / /___/ /___ ___/ / 
+                    /_/  /_//____//_/ /_____/\____//____/  
+
+*/
+
+
+
+
         "mstecs-header-contact": "Contacto",
+        "mstecs-header-office":"Office Planes Empresariales",
         "callus": "Comunícate<br> +52 449 284 1532",
         "mailus": "Cotiza directamente<br> contact@mstecs.com",
+
         "mstecs-hero-title": "Líderes en tecnología",
         "mstecs-hero-list-item1": "Ventas",
         "mstecs-hero-list-item2": "Licenciamiento",
         "mstecs-hero-list-item3": "Consultoría",
         "mstecs-hero-list-item4": "Servicios administrados",
         "mstecs-hero-list-item5": "Presencia global",
+
         "mstecs-licensing-title": "Licenciamiento",
         "mstecs-licensing-subtitle": "Optimiza tu crecimiento con nuestras opciones",
         "m365desc": "Accede a las mejores herramientas de trabajo colaborativo, almacenamiento en la nube y más. Licencias a precios especiales.",
@@ -218,19 +297,47 @@ const translations = {
 
     },
     "en": {
+
+/*
+                   _____ _______ ______ _____ _    _        _____ 
+                  / ____|__   __|  ____/ ____| |  | |      / ____|
+                 | |       | |  | |__ | |    | |__| |_____| (___  
+                 | |       | |  |  __|| |    |  __  |______\___ \ 
+                 | |____   | |  | |___| |____| |  | |      ____) |
+                  \_____|  |_|  |______\_____|_|  |_|     |_____/ 
+
+*/
+        
+        /* Navbar */
         "we-are-button": "We are",
         "partners-button": "Partners",
         "services-button": "Our services",
         "certifications-button": "Certifications",
         "contact-button": "Contact",
+        /* ------ */
+    
+        /*  =========================================
+            |                                       |
+            |           Index Translations          |
+            |                                       |
+            =========================================
+        */
+
+        /* Hero */
         /*"ctechs-hero-title": "Leaders",
         "ctechs-hero-subtitle": "in cloud technologies",
         "ctechs-hero-description": "Responsibility Honesty Perseverance",*/
         "ctechs-hero-secondslide-firsttitle": "instructors",
         "ctechs-hero-secondslide-secondtitle": "support",
         "ctechs-hero-secondslide-thirdtitle": "certifications",
+        /* ---- */
+
+        /* Who Are We */
         "whoweare-title": "who . we . are",
         "whoweare-desc": "CTECH-S is a company with more than 10 years in the market dedicated to providing training and consulting services and solutions based on cloud platforms such as Amazon Web Services, Google Cloud Partner and CompTIA.<br><br>Looking to contribute to the technological development of each company, we have a team of highly trained and certified engineers and trainers.",
+        /* ---------- */
+
+        /* Our Benefits */
         "ourbenefits-title": "our <strong>benefits</strong>",
         "personel-text": "<strong>Staff specialized</strong><br>in assignment and calendar management",
         "attention-text": "<strong>Personalized attention</strong><br>at management level",
@@ -240,33 +347,85 @@ const translations = {
         "dedicated": "<strong class='span-blue'>Dedicated learning & development</strong><br>process of andragogy skills for every instructor",
         "continous": "<strong class='span-blue'>Continous training</strong><br>regarding tools and training platforms",
         "high-adaptability": "<strong class='span-blue'>High adaptability</strong><br>to new platforms methodologies processes and internal corporate tools",
+        /* ------------ */
+
+        /* Contact Us */
         "contactus-title": "Contact us",
         "contact-name-placeholder": "Your Name",
         "contact-email-placeholder": "Your Email",
         "contact-phone-placeholder": "Phone",
         "send-request": "Send Request",
+        /* ---------- */
+
+        /*  =========================================
+            |                                       |
+            |           Partners Translations       |
+            |                                       |
+            =========================================
+        */
+
         "partners": "<strong>partners</strong>",
         "partners-text": "We offer specialized instructors to training centers<br> & learning partners around the world.",
+        
+        
+        /*  =========================================
+            |                                       |
+            |           Services Translations       |
+            |                                       |
+            =========================================
+        */
+        
+        
         "services-title": "our <strong>services</strong>",
         "services-highligth": "We have <strong class='text-color-orange'>the best technology</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>certified consultants</strong> to offer you quality services.",
         "training-title": "Training",
         "training-desc": "We have native instructors and experts in different languages, such as English, Spanish, French, Portuguese and others. Backed up by ten years in the market, all of our trainers are certified.",
+        "licensing-title": "Licensing",
+        "licensing-desc": "We help your company optimize the appropriate licensing for your business, tailored to your operational needs. Enhance your team's collaboration with reliable and updated technological solutions directly from one of the leaders in technology.",
         "consulting-title": "Consulting",
-        "consulting-desc": "We offer training solutions given by experts in the technological field that helps the company and its employees to improve their technical skills.",
+        "consulting-desc": "We offer training solutions given by experts in the technological field that help the company and its employees improve their technical skills.",
         "managed-title": "Managed Services",
-        "managed-desc": "We offer desktop, server and device client management solutions that help our clients reduce the complexity of infrastructure management a well as administrative services, accelerating the return on investment and providing resources that will ensure the correct management of Cloud services.",
+        "managed-desc": "We offer desktop, server, and device client management solutions that help our clients reduce the complexity of infrastructure management as well as administrative services, accelerating the return on investment and providing resources that ensure the correct management of Cloud services.",
         "cloud-title": "Cloud Implementation",
-        "cloud-desc": "We offer cloud services consultation, administration and implementation, facilitating our clients' platforms, using state-of-the-art technologies that position us as leaders in the market.",
+        "cloud-desc": "We offer cloud services consultation, administration, and implementation, facilitating our clients' platforms, using state-of-the-art technologies that position us as leaders in the market.",
+        
+        /*  =========================================
+            |                                       |
+            |     Certifications Translations       |
+            |                                       |
+            =========================================
+        */
+        
+        
         "certifications-title": "<strong>Certifications</strong>",
+
+
+        /*
+                        __  _______________________________
+                       /  |/  / ___/_  __/ ____/ ____/ ___/
+                      / /|_/ /\__ \ / / / __/ / /    \__ \ 
+                     / /  / /___/ // / / /___/ /___ ___/ / 
+                    /_/  /_//____//_/ /_____/\____//____/  
+
+        */
+
         "mstecs-header-contact": "Contact",
+        "mstecs-header-office": "Office SMB Plans",
         "callus": "Call us<br> +52 449 284 1532",
         "mailus": "Mail us<br> contact@mstecs.com",
+
+
+        /* Hero */
         "mstecs-hero-title": "Leaders in technology",
         "mstecs-hero-list-item1": "Sales",
         "mstecs-hero-list-item2": "Licensing",
         "mstecs-hero-list-item3": "Consulting",
         "mstecs-hero-list-item4": "Managed services",
         "mstecs-hero-list-item5": "Global presence",
+        /* ---- */
+
+
+
         "mstecs-licensing-title": "Licensing",
         "mstecs-licensing-subtitle": "Optimize your growth with our options",
         "m365desc": "Access the best collaborative work tools, cloud storage, and more. Licenses at special prices.",
@@ -281,10 +440,6 @@ const translations = {
         "mstecs-services-title": "Services",
         "mstecs-services-subtitle": "We are Microsoft partners so our trainers are highly qualified.",
         "mstecs-allies-title": "Our allies",
-
-
-
-
 
         /*  =========================================
             |                                       |
