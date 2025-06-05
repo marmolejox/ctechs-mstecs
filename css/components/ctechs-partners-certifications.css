@@ -31,6 +31,17 @@
     margin: 10px;
 }
 
+.image-separator {
+    width: 100%;
+    overflow: hidden;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media (max-width: 768px) {
     .partners-row {
         flex-direction: column;
