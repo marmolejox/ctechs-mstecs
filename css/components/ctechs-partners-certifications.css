@@ -1,75 +1,43 @@
 @import url('../variable.css');
 
-.ctechs-partners-certifications-section {
-    padding: 4rem;
+.partners-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
-.ctechs-partners-certifications-container {
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
 }
 
-.ctechs-partners-certifications-logos {
+.partners-row {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    margin: 10px 0;
 }
 
-.partner-certifications-logo {
-    width: 350px;
-    height: 100px;
+.partner-logo {
+    max-width: 150px;
+    max-height: 100px;
     object-fit: contain;
-    object-position: center;
-    background: #fff;
+    margin: 10px;
 }
 
-@media (max-width: 900px) {
-    .ctechs-partners-certifications-logos {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-    }
-}
-
-@media (max-width: 600px) {
-    .ctechs-partners-certifications-logos {
-        grid-template-columns: 1fr;
-        gap: 16px;
-    }
-}
-
-@media (max-width: 900px) {
-    .ctechs-partners-certifications-section {
-        padding: 2.5rem 0.5rem;
-    }
-    .ctechs-partners-certifications-logos {
-        gap: 24px;
-    }
-    .partner-certifications-logo {
-        width: 80px;
-        height: 48px;
-    }
-}
-
-@media (max-width: 600px) {
-    .ctechs-partners-certifications-section {
-        padding: 1.5rem 0.25rem;
-    }
-    .ctechs-partners-certifications-container {
-        padding: 0 8px;
-    }
-    .ctechs-partners-certifications-logos {
-        gap: 16px;
+@media (max-width: 768px) {
+    .partners-row {
         flex-direction: column;
-        align-items: stretch;
     }
-    .partner-certifications-logo {
-        width: 100%;
-        max-width: 180px;
-        height: 40px;
-        margin: 0 auto;
+
+    .partner-logo {
+        max-width: 100px;
+        max-height: 70px;
     }
 }
