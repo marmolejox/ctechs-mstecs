@@ -1,15 +1,15 @@
 const translations = {
     "es": {
 
-/*
-                   _____ _______ ______ _____ _    _        _____ 
-                  / ____|__   __|  ____/ ____| |  | |      / ____|
-                 | |       | |  | |__ | |    | |__| |_____| (___  
-                 | |       | |  |  __|| |    |  __  |______\___ \ 
-                 | |____   | |  | |___| |____| |  | |      ____) |
-                  \_____|  |_|  |______\_____|_|  |_|     |_____/ 
-
-*/
+        /*
+                           _____ _______ ______ _____ _    _        _____ 
+                          / ____|__   __|  ____/ ____| |  | |      / ____|
+                         | |       | |  | |__ | |    | |__| |_____| (___  
+                         | |       | |  |  __|| |    |  __  |______\___ \ 
+                         | |____   | |  | |___| |____| |  | |      ____) |
+                          \_____|  |_|  |______\_____|_|  |_|     |_____/ 
+        
+        */
 
         /* Navbar */
         "we-are-button": "Quienes somos",
@@ -42,7 +42,7 @@ const translations = {
         /* ---------- */
 
         /* Our Benefits */
-        "ourbenefits-title": "nuestros<br> <strong>beneficios</strong>",
+        "ourbenefits-title": "nuestros <strong>beneficios</strong>",
         "personel-text": "<strong>Personal especializado</strong><br>en gestión de asignaciones y calendarios",
         "attention-text": "<strong>Atención personalizada</strong><br>a nivel de gestión",
         "specialists-text": "<strong>Especialistas asignados</strong><br>para atender las consultas de sus clientes",
@@ -80,18 +80,18 @@ const translations = {
             =========================================
         */
 
-"services-title": "nuestros<br> <strong>servicios</strong>",
-"services-highligth": "Contamos con <strong class='text-color-orange'>la mejor tecnología</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>consultores certificados</strong> para ofrecerle servicios de calidad",
-"training-title": "Entrenamiento",
-"training-desc": "Contamos con <strong>instructores nativos</strong> y expertos en diferentes idiomas, como inglés, español, francés, portugués y otros. Avalados por diez años en el mercado, todos nuestros formadores están <strong>certificados</strong>.",
-"licensing-title": "Licenciamiento",
-"licensing-desc": "Contribuimos <strong>a que tu empresa optimice</strong> el licenciamiento adecuado para tu negocio, <strong>adaptado</strong> a tus necesidades operativas. <strong>Potencializa</strong> la colaboración de tu equipo con soluciones tecnológicas confiables y actualizadas directamente de uno de los líderes en tecnología.",
-"consulting-title": "Consultoría",
-"consulting-desc": "Ofrecemos soluciones de formación impartidas por expertos en el ámbito tecnológico que ayudan a la empresa y a sus empleados a mejorar sus <strong>competencias técnicas</strong>.",
-"managed-title": "Servicios Administrados",
-"managed-desc": "Ofrecemos soluciones de gestión de escritorios, servidores y dispositivos cliente que ayudan a nuestros clientes a reducir la complejidad de la gestión de la infraestructura, así como de los servicios administrativos, acelerando el retorno de la inversión y proporcionando recursos que aseguren la correcta gestión de los servicios Cloud.",
-"cloud-title": "Implementación de tecnología en la nube",
-"cloud-desc": "Ofrecemos consultoría, administración e implementación de servicios en la nube, facilitando las plataformas de nuestros clientes, utilizando <strong>tecnologías de punta</strong> que nos posicionan como líderes en el mercado.",
+        "services-title": "nuestros <strong>servicios</strong>",
+        "services-highligth": "Contamos con <strong class='text-color-orange'>la mejor tecnología</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>consultores certificados</strong> para ofrecerle servicios de calidad",
+        "training-title": "Entrenamiento",
+        "training-desc": "Contamos con <strong>instructores nativos</strong> y expertos en diferentes idiomas, como inglés, español, francés, portugués y otros. Avalados por diez años en el mercado, todos nuestros formadores están <strong>certificados</strong>.",
+        "licensing-title": "Licenciamiento",
+        "licensing-desc": "Contribuimos <strong>a que tu empresa optimice</strong> el licenciamiento adecuado para tu negocio, <strong>adaptado</strong> a tus necesidades operativas. <strong>Potencializa</strong> la colaboración de tu equipo con soluciones tecnológicas confiables y actualizadas directamente de uno de los líderes en tecnología.",
+        "consulting-title": "Consultoría",
+        "consulting-desc": "Ofrecemos soluciones de formación impartidas por expertos en el ámbito tecnológico que ayudan a la empresa y a sus empleados a mejorar sus <strong>competencias técnicas</strong>.",
+        "managed-title": "Servicios Administrados",
+        "managed-desc": "Ofrecemos soluciones de gestión de escritorios, servidores y dispositivos cliente que ayudan a nuestros clientes a reducir la complejidad de la gestión de la infraestructura, así como de los servicios administrativos, acelerando el retorno de la inversión y proporcionando recursos que aseguren la correcta gestión de los servicios Cloud.",
+        "cloud-title": "Implementación de tecnología en la nube",
+        "cloud-desc": "Ofrecemos consultoría, administración e implementación de servicios en la nube, facilitando las plataformas de nuestros clientes, utilizando <strong>tecnologías de punta</strong> que nos posicionan como líderes en el mercado.",
 
         /*  =========================================
             |                                       |
@@ -105,20 +105,20 @@ const translations = {
 
 
 
-/*
-                        __  _______________________________
-                       /  |/  / ___/_  __/ ____/ ____/ ___/
-                      / /|_/ /\__ \ / / / __/ / /    \__ \ 
-                     / /  / /___/ // / / /___/ /___ ___/ / 
-                    /_/  /_//____//_/ /_____/\____//____/  
-
-*/
+        /*
+                                __  _______________________________
+                               /  |/  / ___/_  __/ ____/ ____/ ___/
+                              / /|_/ /\__ \ / / / __/ / /    \__ \ 
+                             / /  / /___/ // / / /___/ /___ ___/ / 
+                            /_/  /_//____//_/ /_____/\____//____/  
+        
+        */
 
 
 
 
         "mstecs-header-contact": "Contacto",
-        "mstecs-header-office":"Office Planes Empresariales",
+        "mstecs-header-office": "Office Planes Empresariales",
         "callus": "Comunícate<br> +52 449 284 1532",
         "mailus": "Cotiza directamente<br> contact@mstecs.com",
 
@@ -191,7 +191,7 @@ const translations = {
         "applications-features": "<li>Versiones web de Word, Excel, PowerPoint y Outlook</li><li>1 TB de almacenamiento en la nube por usuario</li><li>Soporte ininterrumpido por teléfono y a través de la Web</li><li>Microsoft 365 Copilot está disponible como complemento</li>",
         /* -------- */
 
-        
+
         /*  =========================================
             |                                       |
             |           Office Translations         |
@@ -202,21 +202,21 @@ const translations = {
         "office-plans-title": "Planes Empresarial",
 
         /* Without Teams */
-        "e1-no-teams":"Sin Teams",
-        "e3-no-teams":"Sin Teams",
-        "e5-no-teams":"Sin Teams",
+        "e1-no-teams": "Sin Teams",
+        "e3-no-teams": "Sin Teams",
+        "e5-no-teams": "Sin Teams",
         /* ------------ */
 
         /* Quotes */
-        "e1-quote":"Cotizar ahora",
-        "e3-quote":"Cotizar ahora",
-        "e5-quote":"Cotizar ahora",
+        "e1-quote": "Cotizar ahora",
+        "e3-quote": "Cotizar ahora",
+        "e5-quote": "Cotizar ahora",
         /* ------ */
 
         /* Description */
-        "e1-description":"Todo lo que incluye la versión Empresa Básico y además:",
-        "e3-description":"Todo lo que incluye la versión Empresa Estándar y además:",
-        "e5-description":"Todo lo que incluye la versión Empresa Estándar y además:",
+        "e1-description": "Todo lo que incluye la versión Empresa Básico y además:",
+        "e3-description": "Todo lo que incluye la versión Empresa Estándar y además:",
+        "e5-description": "Todo lo que incluye la versión Empresa Estándar y además:",
         /* ----------- */
 
         /* Features */
@@ -239,38 +239,38 @@ const translations = {
         */
 
         /* Pre-Titles */
-        "starter-pretitle":"Plan",
-        "standard-pretitle":"Plan",
-        "plus-pretitle":"Plan",
-        "customplan-pretitle":"Aplicaciones",
+        "starter-pretitle": "Plan",
+        "standard-pretitle": "Plan",
+        "plus-pretitle": "Plan",
+        "customplan-pretitle": "Aplicaciones",
         /* ---------- */
 
         /* Titles */
-        "starter-title":"Business Starter",
-        "standard-title":"Business Standard",
-        "plus-title":"Business Plus",
-        "customplan-title":"Enterprise",
+        "starter-title": "Business Starter",
+        "standard-title": "Business Standard",
+        "plus-title": "Business Plus",
+        "customplan-title": "Enterprise",
         /* ------ */
-        
+
         /* Quotes */
-        "starter-quote":"Cotizar ahora",
-        "standard-quote":"Cotizar ahora",
-        "plus-quote":"Cotizar ahora",
-        "customplan-quote":"Cotizar ahora",
+        "starter-quote": "Cotizar ahora",
+        "standard-quote": "Cotizar ahora",
+        "plus-quote": "Cotizar ahora",
+        "customplan-quote": "Cotizar ahora",
         /* ------ */
 
         /* Description */
-        "starter-description":"Aplicaciones y servicios para poner en marcha tu negocio, incluyendo:",
-        "standard-description":"Todo lo incluido en la versión 'Empresa Básico' y más:",
-        "plus-description":"Todo lo incluido en la versión 'Empresa Estándar' y más:",
-        "customplan-description":"Todo lo incluido en la versión 'Empresa Estándar' y más:",
+        "starter-description": "Aplicaciones y servicios para poner en marcha tu negocio, incluyendo:",
+        "standard-description": "Todo lo incluido en la versión 'Empresa Básico' y más:",
+        "plus-description": "Todo lo incluido en la versión 'Empresa Estándar' y más:",
+        "customplan-description": "Todo lo incluido en la versión 'Empresa Estándar' y más:",
         /* ----------- */
 
         /* Features */
-        "starter-features":"<li>30 GB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com<li><li>Asistente de IA de Gemini en Gmail**</li><li>Chatea con la IA en la app de Gemini**</li><li>Videoconferencias de 100 participantes</li><li>Controles de seguridad y administración</li><li>Soporte técnico 24/7</li>",
-        "standard-features":"<li>2 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 150 participantes, grabación y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad y administración</li>",
-        "plus-features":"<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 500 participantes, grabación, seguimiento de la asistencia y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Seguridad y controles de administración mejorados, incluidos Vault y administración avanzada de extremos</li>",
-        "customplan-features":"<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 1,000 participantes, grabación, seguimiento de la asistencia, cancelación de ruido y transmisión en vivo dentro del dominio</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad, administración y cumplimiento avanzados, incluidos Vault, DLP, regiones de datos y administración empresarial de extremos</li><li>Asistencia mejorada***</li>",
+        "starter-features": "<li>30 GB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com<li><li>Asistente de IA de Gemini en Gmail**</li><li>Chatea con la IA en la app de Gemini**</li><li>Videoconferencias de 100 participantes</li><li>Controles de seguridad y administración</li><li>Soporte técnico 24/7</li>",
+        "standard-features": "<li>2 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro del tipo tú@tu-empresa.com</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 150 participantes, grabación y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad y administración</li>",
+        "plus-features": "<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 500 participantes, grabación, seguimiento de la asistencia y cancelación de ruido</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Seguridad y controles de administración mejorados, incluidos Vault y administración avanzada de extremos</li>",
+        "customplan-features": "<li>5 TB de almacenamiento conjunto por usuario*</li><li>Correo electrónico empresarial personalizado y seguro, detección electrónica, retención y S/MIME</li><li>Asistente de IA de Gemini en Gmail, Documentos, Meet y más**</li><li>Chatea con la IA en la app de Gemini y crea tu equipo de expertos de IA**</li><li>Asistente de investigación basado en IA (NotebookLM Plus)</li><li>Videoconferencias de 1,000 participantes, grabación, seguimiento de la asistencia, cancelación de ruido y transmisión en vivo dentro del dominio</li><li>Firma electrónica en Documentos y archivos PDF</li><li>Páginas de reservas de citas</li><li>Creador y editor de videos colaborativos</li><li>Diseños y combinación de correos electrónicos</li><li>Controles de seguridad, administración y cumplimiento avanzados, incluidos Vault, DLP, regiones de datos y administración empresarial de extremos</li><li>Asistencia mejorada***</li>",
         /* -------- */
 
         "communicatewithus": "Comunícate con Ventas para conocer los precios",
@@ -298,16 +298,16 @@ const translations = {
     },
     "en": {
 
-/*
-                   _____ _______ ______ _____ _    _        _____ 
-                  / ____|__   __|  ____/ ____| |  | |      / ____|
-                 | |       | |  | |__ | |    | |__| |_____| (___  
-                 | |       | |  |  __|| |    |  __  |______\___ \ 
-                 | |____   | |  | |___| |____| |  | |      ____) |
-                  \_____|  |_|  |______\_____|_|  |_|     |_____/ 
-
-*/
+        /*
+                           _____ _______ ______ _____ _    _        _____ 
+                          / ____|__   __|  ____/ ____| |  | |      / ____|
+                         | |       | |  | |__ | |    | |__| |_____| (___  
+                         | |       | |  |  __|| |    |  __  |______\___ \ 
+                         | |____   | |  | |___| |____| |  | |      ____) |
+                          \_____|  |_|  |______\_____|_|  |_|     |_____/ 
         
+        */
+
         /* Navbar */
         "we-are-button": "We are",
         "partners-button": "Partners",
@@ -315,7 +315,7 @@ const translations = {
         "certifications-button": "Certifications",
         "contact-button": "Contact",
         /* ------ */
-    
+
         /*  =========================================
             |                                       |
             |           Index Translations          |
@@ -366,16 +366,16 @@ const translations = {
 
         "partners": "<strong>partners</strong>",
         "partners-text": "We offer specialized instructors to training centers<br> & learning partners around the world.",
-        
-        
+
+
         /*  =========================================
             |                                       |
             |           Services Translations       |
             |                                       |
             =========================================
         */
-        
-        
+
+
         "services-title": "our <strong>services</strong>",
         "services-highligth": "We have <strong class='text-color-orange'>the best technology</strong> <span class='text-biggest'>&</span> <strong class='text-color-blue'>certified consultants</strong> to offer you quality services.",
         "training-title": "Training",
@@ -388,15 +388,15 @@ const translations = {
         "managed-desc": "We offer desktop, server, and device client management solutions that help our clients reduce the complexity of infrastructure management as well as administrative services, accelerating the return on investment and providing resources that ensure the correct management of Cloud services.",
         "cloud-title": "Cloud Implementation",
         "cloud-desc": "We offer cloud services consultation, administration, and implementation, facilitating our clients' platforms, using state-of-the-art technologies that position us as leaders in the market.",
-        
+
         /*  =========================================
             |                                       |
             |     Certifications Translations       |
             |                                       |
             =========================================
         */
-        
-        
+
+
         "certifications-title": "<strong>Certifications</strong>",
 
 
@@ -501,21 +501,21 @@ const translations = {
         "office-plans-title": "Business Plans",
 
         /* Without Teams */
-        "e1-no-teams":"Without Teams",
-        "e3-no-teams":"Without Teams",
-        "e5-no-teams":"Without Teams",
+        "e1-no-teams": "Without Teams",
+        "e3-no-teams": "Without Teams",
+        "e5-no-teams": "Without Teams",
         /* ------------ */
 
         /* Quotes */
-        "e1-quote":"Contact Sales",
-        "e3-quote":"Contact Sales",
-        "e5-quote":"Contact Sales",
+        "e1-quote": "Contact Sales",
+        "e3-quote": "Contact Sales",
+        "e5-quote": "Contact Sales",
         /* ------ */
 
         /* Description */
-        "e1-description":"Everything included in the 'Basic Business' version and more:",
-        "e3-description":"Everything included in the 'Standard Business' version and more:",
-        "e5-description":"Everything included in the 'Standard Business' version and more:",
+        "e1-description": "Everything included in the 'Basic Business' version and more:",
+        "e3-description": "Everything included in the 'Standard Business' version and more:",
+        "e5-description": "Everything included in the 'Standard Business' version and more:",
         /* ----------- */
 
         /* Features */
@@ -544,38 +544,38 @@ const translations = {
         */
 
         /* Pre-Titles */
-        "starter-pretitle":"Plan",
-        "standard-pretitle":"Plan",
-        "plus-pretitle":"Plan",
-        "customplan-pretitle":"Applications",
+        "starter-pretitle": "Plan",
+        "standard-pretitle": "Plan",
+        "plus-pretitle": "Plan",
+        "customplan-pretitle": "Applications",
         /* ---------- */
 
         /* Titles */
-        "starter-title":"Business Starter",
-        "standard-title":"Business Standard",
-        "plus-title":"Business Plus",
-        "customplan-title":"Enterprise",
+        "starter-title": "Business Starter",
+        "standard-title": "Business Standard",
+        "plus-title": "Business Plus",
+        "customplan-title": "Enterprise",
         /* ------ */
-        
+
         /* Quotes */
-        "starter-quote":"Contact Sales",
-        "standard-quote":"Contact Sales",
-        "plus-quote":"Contact Sales",
-        "customplan-quote":"Contact Sales",
+        "starter-quote": "Contact Sales",
+        "standard-quote": "Contact Sales",
+        "plus-quote": "Contact Sales",
+        "customplan-quote": "Contact Sales",
         /* ------ */
 
         /* Description */
-        "starter-description":"Applications and services to get your business up and running, including:",
-        "standard-description":"Everything included in the 'Basic Business' version and more:",
-        "plus-description":"Everything included in the 'Basic Standard' version and more:",
-        "customplan-description":"Everything included in the 'Basic Standard' version and more:",
+        "starter-description": "Applications and services to get your business up and running, including:",
+        "standard-description": "Everything included in the 'Basic Business' version and more:",
+        "plus-description": "Everything included in the 'Basic Standard' version and more:",
+        "customplan-description": "Everything included in the 'Basic Standard' version and more:",
         /* ----------- */
 
         /* Features */
-        "starter-features":"<li>30 GB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail**</li><li>Chat with AI in the Gemini app**</li><li>Video meetings with up to 100 participants</li><li>Security and admin controls</li><li>24/7 support</li>",
-        "standard-features":"<li>2 TB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 150 participants, recording, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Security and admin controls</li>",
-        "plus-features":"<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 500 participants, recording, attendance tracking, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Enhanced security and admin controls, including Vault and advanced endpoint management</li>",
-        "customplan-features":"<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 1,000 participants, recording, attendance tracking, noise cancellation, and live streaming within the domain</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Advanced security, admin, and compliance controls, including Vault, DLP, data regions, and enterprise endpoint management</li><li>Enhanced support***</li>",
+        "starter-features": "<li>30 GB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail**</li><li>Chat with AI in the Gemini app**</li><li>Video meetings with up to 100 participants</li><li>Security and admin controls</li><li>24/7 support</li>",
+        "standard-features": "<li>2 TB of pooled storage per user*</li><li>Personalized and secure business email like you@your-company.com</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 150 participants, recording, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Security and admin controls</li>",
+        "plus-features": "<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 500 participants, recording, attendance tracking, and noise cancellation</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Enhanced security and admin controls, including Vault and advanced endpoint management</li>",
+        "customplan-features": "<li>5 TB of pooled storage per user*</li><li>Personalized and secure business email, eDiscovery, retention, and S/MIME</li><li>Gemini AI assistant in Gmail, Docs, Meet, and more**</li><li>Chat with AI in the Gemini app and create your team of AI experts**</li><li>AI-powered research assistant (NotebookLM Plus)</li><li>Video meetings with up to 1,000 participants, recording, attendance tracking, noise cancellation, and live streaming within the domain</li><li>Electronic signature in Docs and PDF files</li><li>Appointment booking pages</li><li>Collaborative video creator and editor</li><li>Email layouts and mail merge</li><li>Advanced security, admin, and compliance controls, including Vault, DLP, data regions, and enterprise endpoint management</li><li>Enhanced support***</li>",
         /* -------- */
 
 
