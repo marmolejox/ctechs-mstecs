@@ -9,7 +9,7 @@
 }
 
 .floating-button {
-    background-color: #0078D4;
+    background-color: var(--color-gray-25);
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -19,11 +19,11 @@
     justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    color: #ffffff;
+    color: var(--color-blue-mstecs);
 }
 
 .floating-button:hover {
-    background-color: #005A9E;
+    background-color: rgb(46, 46, 46);
 }
 
 .floating-button svg {
