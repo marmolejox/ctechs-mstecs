@@ -8,7 +8,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: var(--color-gray-30);
+    background-color: red;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;

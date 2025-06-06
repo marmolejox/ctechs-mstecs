@@ -36,6 +36,7 @@
 
     <!-- Header -->
     <header class="ctechs-header">
+
         <div class="ctechs-header-container">
             <!-- Logo -->
             <a href="index.html" class="ctechs-header-logo">
@@ -49,26 +50,32 @@
                     <path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                 </svg>
             </button>
+
+
+
             <!-- Navigation Menu -->
             <nav class="ctechs-header-menu roboto-regular" id="menu">
                 <ul class="menu-links">
-                    <li class="menu-item"><a href="#whoweare" class="menu-link" id="we-are-button"></a></li>
+                    <li class="menu-item"><a href="./index.html#whoweare" class="menu-link" id="we-are-button"></a></li>
                     <li class="menu-item"><a href="./partners.html" class="menu-link" id="partners-button"></a></li>
                     <li class="menu-item"><a href="./ourservices.html" class="menu-link" id="services-button"></a></li>
-                    <li class="menu-item"><a href="" class="menu-link"><img src="./assets/logos/mstecs-logo.svg"
-                                alt="MSTECS logo" class="logo-button"></a></li>
+                    <li class="menu-item"><a href="./mstecs.html" class="menu-link"><img
+                                src="./assets/logos/mstecs-logo.svg" alt="MSTECS logo" class="logo-button"></a></li>
                     <li class="menu-item"><a href="certifications.html" class="menu-link"
                             id="certifications-button"></a></li>
-                    <li class="menu-item"><a href="#contact-us" class="menu-link" id="contact-button"></a></li>
+                    <li class="menu-item"><a href="./index.html#contact-us" class="menu-link" id="contact-button"></a>
+                    </li>
                     <li class="menu-item">
-                        <select id="language-select">
+                        <select class="select-header-ctechs" id="language-select">
                             <option class="menu-link" value="es">Español</option>
                             <option class="menu-link" value="en">English</option>
                         </select>
                     </li>
                 </ul>
             </nav>
+
         </div>
+
     </header>
     <!-- End of Header -->
 
@@ -118,6 +125,23 @@
 
 
     <!-- End of Partners Section -->
+
+
+    <!-- Floating Buttons Section -->
+    <section class="floating-buttons">
+        <button id="scroll-to-top" class="floating-button" aria-label="Scroll to Top">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4L4 12H8V20H16V12H20L12 4Z" fill="currentColor" />
+            </svg>
+        </button>
+        <button id="email-button" class="floating-button" aria-label="Email">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4ZM20 6L12 11L4 6V18H20V6Z"
+                    fill="currentColor" />
+            </svg>
+        </button>
+    </section>
 
     <!-- Footer -->
     <footer class="ctechs-footer">
@@ -211,7 +235,9 @@
 
     <script src="js/language-loader.js"></script>
     <script src="js/mobile-menu.js"></script>
+    <script src="js/slider.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/email-scroll.js" defer></script>
 
 </body>
 
