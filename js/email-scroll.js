@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Botón de email - acción directa mailto
     document.getElementById('email-button').addEventListener('click', function() {
-        window.location.href = 'mailto:yonibravo@ctech-s.com';
+        window.location.href = 'mailto:contact@ctech-s.com';
     });
 });
