@@ -28,9 +28,9 @@ const translations = {
         */
 
         /* Hero */
-        /*"ctechs-hero-title": "Líderes",
+        "ctechs-hero-title": "Líderes",
         "ctechs-hero-subtitle": "en tecnologías de la nube",
-        "ctechs-hero-description": "Responsabilidad Honestidad Perseverancia",*/
+        "ctechs-hero-description": "Responsabilidad Honestidad Perseverancia",
         "ctechs-hero-secondslide-firsttitle": "instructores",
         "ctechs-hero-secondslide-secondtitle": "soporte",
         "ctechs-hero-secondslide-thirdtitle": "certificaciones",
@@ -118,9 +118,9 @@ const translations = {
 
 
         "mstecs-header-contact": "Contacto",
-        "mstecs-header-office": "Office Planes Empresariales",
-        "callus": "Comunícate<br> +52 449 284 1532",
-        "mailus": "Cotiza directamente<br> contact@mstecs.com",
+        "mstecs-header-office": "Planes Enterprise",
+        "callus": "Comunícate<br> + 52 (55) 8880 0219",
+        "mailus": "Cotiza directamente<br> ventas@mstecs.com",
 
         "mstecs-hero-title": "Líderes en tecnología",
         "mstecs-hero-list-item1": "Ventas",
@@ -199,7 +199,7 @@ const translations = {
             =========================================
         */
 
-        "office-plans-title": "Planes Empresarial",
+        "office-plans-title": "Planes Enterprise",
 
         /* Without Teams */
         "e1-no-teams": "Sin Teams",
@@ -324,9 +324,9 @@ const translations = {
         */
 
         /* Hero */
-        /*"ctechs-hero-title": "Leaders",
+        "ctechs-hero-title": "Leaders",
         "ctechs-hero-subtitle": "in cloud technologies",
-        "ctechs-hero-description": "Responsibility Honesty Perseverance",*/
+        "ctechs-hero-description": "Responsibility Honesty Perseverance",
         "ctechs-hero-secondslide-firsttitle": "instructors",
         "ctechs-hero-secondslide-secondtitle": "support",
         "ctechs-hero-secondslide-thirdtitle": "certifications",
@@ -410,8 +410,8 @@ const translations = {
         */
 
         "mstecs-header-contact": "Contact",
-        "mstecs-header-office": "Office SMB Plans",
-        "callus": "Call us<br> +52 449 284 1532",
+        "mstecs-header-office": "Enterprise Plans",
+        "callus": "Call us<br> +1 (480) 500 1207",
         "mailus": "Mail us<br> contact@mstecs.com",
 
 
@@ -498,7 +498,7 @@ const translations = {
             =========================================
         */
 
-        "office-plans-title": "Business Plans",
+        "office-plans-title": "Enterprise Plans",
 
         /* Without Teams */
         "e1-no-teams": "Without Teams",

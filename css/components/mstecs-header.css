@@ -303,6 +303,7 @@
 .mstecs-language-select:focus {
     outline: 2px solid #b3b3b3;
 }
+
 @media (max-width: 768px) {
     .mstecs-navbar {
         justify-content: center;

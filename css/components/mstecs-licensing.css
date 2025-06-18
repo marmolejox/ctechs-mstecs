@@ -140,3 +140,36 @@
         max-width: 400px;
     }
 }
+
+@media (max-width: 767px) {
+    .mstecs-licensing {
+        padding: 40px 16px;
+    }
+
+    .mstecs-licensing-title {
+        font-size: 2.5rem;
+        margin-bottom: -30px;
+    }
+
+    .mstecs-licensing-subtitle {
+        font-size: 1.5rem;
+        gap: 8px;
+    }
+
+    .mstecs-licensing-card {
+        padding: 32px 24px 24px 24px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .mstecs-licensing-icon {
+        width: 120px;
+        height: 90px;
+        margin-bottom: 16px;
+    }
+
+    .mstecs-btn {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+    }
+}

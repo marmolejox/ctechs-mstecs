@@ -139,10 +139,7 @@ body {
         text-align: center;
     }
 
-    .mstecs-ft-microsoft-card-icons img {
-        width: 60px;
-        height: 60px;
-    }
+
 }
 
 
@@ -267,12 +264,11 @@ body {
         text-align: center;
         word-wrap: break-word;
         padding-top: 2rem;
+    }
 
-        img {
-            width: 350px;
-            height: auto;
-        }
-
+    .mstecs-ft-office-logo{
+        width: 350px;
+        height: auto;
     }
 
     .mstecs-ft-office-cards {
@@ -288,10 +284,7 @@ body {
     }
 
 
-    .mstecs-ft-office-card-icons img {
-        width: 60px;
-        height: 60px;
-    }
+
 }
 
 /* ---------- End of Office Cards ------------- */
@@ -425,11 +418,11 @@ body {
         word-wrap: break-word;
         padding-top: 2rem;
 
-        img {
-            width: 350px;
-            height: auto;
-        }
+    }
 
+        .mstecs-ft-google-logo{
+        width: 350px;
+        height: auto;
     }
 }
 

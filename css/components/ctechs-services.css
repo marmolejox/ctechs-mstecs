@@ -58,6 +58,11 @@
         margin-bottom: 10px; /* Space below icon */
     }
 
+    .ctechs-services__title{
+        padding: 0;
+        margin: 0;
+    }
+
     .ctechs-services__description {
         font-size: 1.2rem; /* Adjust font size for readability */
         word-wrap: break-word; /* Prevent text from being cut off */
