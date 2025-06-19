@@ -17,7 +17,7 @@
     margin-bottom: 1rem;
     margin-top: 0.5rem; /* Reduced top padding */
     text-transform: uppercase;
-    color: white;
+    color: rgb(142, 142, 142);
 }
 
 .ctechs-contact-us-form {
@@ -38,7 +38,6 @@
     border: 0;
     font-size: 1rem;
     background-color: #fff;
-    text-transform: uppercase;
 }
 
 .ctechs-contact-us-button {
