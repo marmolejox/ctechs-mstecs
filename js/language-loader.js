@@ -122,6 +122,9 @@ const translations = {
         "callus": "Comunícate<br> + 52 (55) 8880 0219",
         "mailus": "Cotiza directamente<br> ventas@mstecs.com",
 
+        "mstecs-address":"Avenida Del Arco Bizantino #3443<br>Col. Paseo de los Arcos 80180 <br>Culiacán, Sin.<br>Mail: ventas@mstecs.com<br>Tel: <a href='tel:+525588800219'>+ 52 (55) 8880 0219</a>",
+
+
         "mstecs-hero-title": "Líderes en tecnología",
         "mstecs-hero-list-item1": "Ventas",
         "mstecs-hero-list-item2": "Licenciamiento",
@@ -413,6 +416,8 @@ const translations = {
         "mstecs-header-office": "Enterprise Plans",
         "callus": "Call us<br> +1 (480) 500 1207",
         "mailus": "Mail us<br> contact@mstecs.com",
+
+        "mstecs-address":"60 E Rio Salado, Parkway<br>Suite 900 Tempe, AZ. 85281<br>Mail: contact@mstecs.com<br>Tel: <a href='tel:+14805001207'>+1 (480) 500 1207</a>",
 
 
         /* Hero */
