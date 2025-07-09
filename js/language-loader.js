@@ -38,7 +38,7 @@ const translations = {
 
         /* Who Are We */
         "whoweare-title": "quienes . somos",
-        "whoweare-desc": "Somos una empresa con más de 10 años en el mercado dedicada a brindar servicios y soluciones de entrenamiento y consultoría basadas en plataformas en la nube como Amazon Web Services, Google Cloud Partner y CompTIA.<br><br>Buscando contribuir al desarrollo tecnológico de cada empresa, contamos con un equipo de ingenieros y entrenadores altamente capacitados y certificados.",
+        "whoweare-desc": "Somos una empresa dedicada a ofrecer servicios de consultoría y capacitación en  las principales plataformas de nube, que contribuyan al desarrollo tecnológico de las empresas a nivel mundial, asumiendo el compromiso de contar con personal altamente capacitado y certificado en sus respectivas áreas de conocimiento, asi como trabajar en equipo, lo que nos permita brindar un servicio de calidad y establecer relaciones duraderas y de largo plazo con nuestros clientes.",
         /* ---------- */
 
         /* Our Benefits */
@@ -337,7 +337,7 @@ const translations = {
 
         /* Who Are We */
         "whoweare-title": "who . we . are",
-        "whoweare-desc": "CTECH-S is a company with more than 10 years in the market dedicated to providing training and consulting services and solutions based on cloud platforms such as Amazon Web Services, Google Cloud Partner and CompTIA.<br><br>Looking to contribute to the technological development of each company, we have a team of highly trained and certified engineers and trainers.",
+        "whoweare-desc": "We are a company dedicated to providing consulting and training services on the main cloud platforms, contributing to the technological development of businesses worldwide. We are committed to having a team of highly trained and certified professionals in their respective areas of expertise, as well as fostering teamwork — enabling us to deliver quality service and build strong, long-term relationships with our clients.",
         /* ---------- */
 
         /* Our Benefits */
