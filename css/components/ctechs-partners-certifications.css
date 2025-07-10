@@ -18,7 +18,8 @@
 
 .partners-row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 3rem;
     align-items: center;
     flex-wrap: wrap;
     margin: 10px 0;
