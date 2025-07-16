@@ -1,6 +1,6 @@
 .mstecs-allies {
     background: var(--color-gray-30);
-    padding: 60px 20px;
+    padding: 30px 20px;
     text-align: center;
 }
 
@@ -12,11 +12,10 @@
 }
 
 .mstecs-allies-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    gap: 20px;
     margin: 0 auto;
     padding-top: 60px;
 }
