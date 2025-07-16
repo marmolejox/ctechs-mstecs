@@ -12,22 +12,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
 }
 
 .partners-row {
     display: flex;
     justify-content: flex-start;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px 0;
+    margin: 25px 0;
+}
+
+.row1 img {
+    width: 350px;
+    height: 86px;
+}
+
+.row2 img {
+    width: 250px;
+    height: 64px;
+}
+
+.row3 img {
+    width: 200px;
+    height: 64px;
 }
 
 .partner-logo {
-    max-width: 150px;
-    max-height: 100px;
+    height: 64px;
     object-fit: contain;
     margin: 10px;
 }
@@ -49,7 +61,7 @@
     }
 
     .partner-logo {
-        max-width: 100px;
-        max-height: 70px;
+        width: 180px;
+        height: 74px;
     }
 }
