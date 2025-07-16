@@ -40,6 +40,12 @@
     flex-wrap: wrap;
 }
 
+.row4 img {
+    object-fit: contain;
+    height: 144px !important;
+    width: 74px;
+}
+
 .logo-row img {
     width: 250px;
     height: auto;
