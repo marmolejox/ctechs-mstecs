@@ -38,9 +38,8 @@
 }
 
 .badge-logo {
-    width: 150px;
-    height: auto;
-    object-fit: contain;
+    width: 200px;
+    height: 64px;
 }
 
 .badge-list {
@@ -96,7 +95,9 @@
     }
     
     .badge-logo {
-        width: 120px;
+        width: 180px;
+        height: 54px;
+        object-fit: contain;
     }
     
     .badge-img {
@@ -125,7 +126,7 @@
     }
     
     .badge-card {
-        max-width: 300px;
+        width: 300px;
         padding: 10px;
     }
     
