@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const dots = document.querySelectorAll('.hero-dot');
     let currentSlide = 0;
     let slideInterval;
-    const intervalTime = 15000;
+    const intervalTime = 20000;
 
     function changeSlide(n) {
         slides.forEach(slide => {
