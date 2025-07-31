@@ -23,8 +23,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
+    width: 400px; /* Ancho por defecto para tarjetas en filas de 2 */
     gap: 15px;
+    min-width: 0; /* Permite que el contenedor se encoja si es necesario */
 }
 
 .badge-card {
@@ -34,46 +35,52 @@
     padding: 20px;
     background-color: var(--color-gray-25);
     border-radius: 30px;
-    width: 600px;
+    width: 100%;
+    min-width: 0; /* Permite que el contenedor se encoja */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
 }
 
 .badge-logo {
     width: 200px;
     height: 64px;
+    object-fit: contain;
+    flex-shrink: 0; /* Evita que el logo se encoja */
 }
 
 .badge-list {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    min-width: 0; /* Permite wrap cuando sea necesario */
 }
 
 .badge-img {
-    width: 150px;
+    width: 240px;
     height: auto;
     object-fit: contain;
+    flex-shrink: 0; /* Mantiene el tamaño de las imágenes */
 }
 
-/* Specific row configurations */
-.badge-row:nth-child(1) {
+/* Configuración para filas con 2 tarjetas */
+.badge-row.two-cards {
     justify-content: space-between;
 }
 
-.badge-row:nth-child(2) {
+.badge-row.two-cards .badge-group {
+    width: calc(50% - 25px); /* Usa porcentaje flexible en lugar de ancho fijo */
+    max-width: none; /* Sin límite de ancho máximo */
+}
+
+/* Configuración para filas con 1 tarjeta (ancho completo) */
+.badge-row.single-card {
     justify-content: center;
 }
 
-.badge-row:nth-child(3),
-.badge-row:nth-child(4) {
-    justify-content: space-between;
-}
-
-/* Configuración especial para la fila 2 - logo horizontal */
-.badge-row:nth-child(2) .badge-group {
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
+.badge-row.single-card .badge-group {
+    width: 100%; /* Usa todo el ancho disponible */
+    max-width: none; /* Sin límite de ancho máximo */
 }
 
 /* Responsive design para móviles */
@@ -88,9 +95,12 @@
         gap: 30px;
     }
     
-    .badge-card {
-        width: 100%;
+    .badge-group {
+        width: 100% !important;
         max-width: 350px;
+    }
+    
+    .badge-card {
         padding: 15px;
     }
     
@@ -105,19 +115,10 @@
     }
     
     /* Resetear las configuraciones específicas de filas para móvil */
-    .badge-row:nth-child(1),
-    .badge-row:nth-child(2),
-    .badge-row:nth-child(3),
-    .badge-row:nth-child(4) {
+    .badge-row.two-cards,
+    .badge-row.single-card {
         justify-content: center;
     }
-
-    /* En móvil, la fila 2 vuelve a ser vertical */
-    .badge-row:nth-child(2) .badge-group {
-        flex-direction: column;
-        gap: 15px;
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -125,8 +126,11 @@
         padding: 10px;
     }
     
+    .badge-group {
+        max-width: 300px;
+    }
+    
     .badge-card {
-        width: 300px;
         padding: 10px;
     }
     
@@ -136,5 +140,17 @@
     
     .badge-img {
         width: 100px;
+    }
+}
+
+/* Ajustes adicionales para imágenes más grandes */
+@media (min-width: 769px) {
+    /* Los contenedores ahora pueden crecer sin límites */
+    .badge-row.two-cards .badge-group {
+        min-width: 300px; /* Ancho mínimo reducido */
+    }
+    
+    .badge-row.single-card .badge-group {
+        min-width: 400px; /* Ancho mínimo reducido */
     }
 }
