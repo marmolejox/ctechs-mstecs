@@ -36,6 +36,7 @@
 
     <!-- Header -->
     <header class="ctechs-header">
+
         <div class="ctechs-header-container">
             <!-- Logo -->
             <a href="index.html" class="ctechs-header-logo">
@@ -49,17 +50,21 @@
                     <path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                 </svg>
             </button>
+
+
+
             <!-- Navigation Menu -->
             <nav class="ctechs-header-menu roboto-regular" id="menu">
                 <ul class="menu-links">
-                    <li class="menu-item"><a href="#whoweare" class="menu-link" id="we-are-button"></a></li>
+                    <li class="menu-item"><a href="./index.html#whoweare" class="menu-link" id="we-are-button"></a></li>
                     <li class="menu-item"><a href="./partners.html" class="menu-link" id="partners-button"></a></li>
                     <li class="menu-item"><a href="./ourservices.html" class="menu-link" id="services-button"></a></li>
                     <li class="menu-item"><a href="./mstecs.html" class="menu-link"><img
                                 src="./assets/logos/mstecs-logo.svg" alt="MSTECS logo" class="logo-button"></a></li>
                     <li class="menu-item"><a href="certifications.html" class="menu-link"
                             id="certifications-button"></a></li>
-                    <li class="menu-item"><a href="#contact-us" class="menu-link" id="contact-button"></a></li>
+                    <li class="menu-item"><a href="./index.html#contact-us" class="menu-link" id="contact-button"></a>
+                    </li>
                     <li class="menu-item">
                         <select class="select-header-ctechs" id="language-select">
                             <option class="menu-link" value="es">Español</option>
@@ -68,7 +73,9 @@
                     </li>
                 </ul>
             </nav>
+
         </div>
+
     </header>
     <!-- End of Header -->
 
@@ -76,7 +83,7 @@
     <section class="spacer-section" style="height: 50px; background-color: transparent;"></section>
     <section class="spacer-section" style="height: 50px; background-color: transparent;"></section>
 
-    <!-- Services -->
+    <!-- Sección de Partners -->
     <section class="ctechs-ourbenefits-section">
 
         <!-- Divider -->
@@ -89,71 +96,77 @@
             <h2 class="section-title roboto-regular" id="services-title"></h2>
         </div>
 
+        <section class="spacer-section" style="height: 50px; background-color: transparent;"></section>
+
         <div class="ctechs-highlight roboto-regular text-color-primary" id="services-highligth">
             We have <strong class="text-color-orange">the best technology</strong> <span class="text-biggest">&</span>
             <strong class="text-color-blue">certified consultants</strong> to offer you quality services.
         </div>
-        <!-- Spacer Section -->
-        <section class="spacer-section" style="height: 50px; background-color: transparent;"></section>
 
-        <section class="ctechs-services roboto-regular">
-
-            <div class="ctechs-services__card">
-                <div class="ctechs-services__card-header">
-                    <img src="./assets/icons/icon_training.svg" alt="Training" height="150px">
-                    <h3 class="ctechs-services__title" id="training-title"><strong
-                            class="text-color-blue">Training</strong></h3>
-                </div>
-                <p class="ctechs-services__description" id="training-desc">We have native instructors and experts in
-                    different languages, such as English, Spanish, French, Portuguese and others. Backed up by ten years
-                    in the market, all of our trainers are certified.</p>
-            </div>
-
-            <div class="ctechs-services__card">
-                <div class="ctechs-services__card-header">
-                    <img src="./assets/icons/id-card-svgrepo-com.svg" alt="Licensing" height="150px">
-                    <h3 class="ctechs-services__title" id="licensing-title"><strong
-                            class="text-color-blue">Licensing</strong></h3>
-                </div>
-                <p class="ctechs-services__description" id="licensing-desc">We have native instructors and experts in
-                    different languages, such as English, Spanish, French, Portuguese and others. Backed up by ten years
-                    in the market, all of our trainers are certified.</p>
-            </div>
-
-            <div class="ctechs-services__card">
-                <div class="ctechs-services__card-header">
-                    <img src="./assets/icons/icon_consulting.svg" alt="IT Consulting" height="150px">
-                    <h3 class="ctechs-services__title" id="consulting-title"><strong class="text-color-blue">IT
-                            Consulting</strong></h3>
-                </div>
-                <p class="ctechs-services__description" id="consulting-desc">We offer training solutions given by
-                    experts in the technological field that helps the company and its employees to improve their
-                    technical skills.</p>
-            </div>
-            <div class="ctechs-services__card">
-                <div class="ctechs-services__card-header">
-                    <img src="./assets/icons/icon_managed.svg" alt="Managed Services" height="150px">
-                    <h3 class="ctechs-services__title" id="managed-title"><strong class="text-color-blue">Managed
-                            Services</strong></h3>
-                </div>
-                <p class="ctechs-services__description" id="managed-desc">We offer desktop, server and device client
-                    management solutions that help our clients reduce the complexity of infrastructure management as
-                    well as administrative services, accelerating the return on investment and providing resources that
-                    will ensure the correct management of Cloud services.</p>
-            </div>
-            <div class="ctechs-services__card">
-                <div class="ctechs-services__card-header">
-                    <img src="./assets/icons/icon_cloud.svg" alt="Cloud" height="150px">
-                    <h3 class="ctechs-services__title" id="cloud-title"><strong class="text-color-blue">Cloud
-                            Implementation Services</strong></h3>
-                </div>
-                <p class="ctechs-services__description" id="cloud-desc">We offer cloud services consultation,
-                    administration and implementation, facilitating our clients' platforms, using state-of-the-art
-                    technologies that position us as leaders in the market.</p>
-            </div>
-        </section>
     </section>
-    <!-- End of Services -->
+
+    <section class="services-grid">
+
+        <div class="service-card">
+            <div class="service-card-header">
+                <img src="./assets/icons/icon_training.svg" alt="Icono del servicio" class="service-icon">
+                <h3 class="service-title" id="training-title">Título del Servicio 1</h3>
+            </div>
+            <p class="service-description" id="training-desc">
+                Aquí va la descripción del servicio. El texto será justificado y ocupará el espacio debajo del ícono
+                y el título. Procura que la descripción sea concisa pero informativa para mantener el diseño limpio.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-card-header">
+                <img src="./assets/icons/icon_licensing.svg" alt="Icono del servicio" class="service-icon">
+                <h3 class="service-title" id="licensing-title">Título del Servicio 2</h3>
+            </div>
+            <p class="service-description" id="licensing-desc">
+                Descripción del segundo servicio. La justificación de este texto se logra fácilmente con CSS,
+                asegurando que los bordes izquierdo y derecho del párrafo queden alineados.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-card-header">
+                <img src="./assets/icons/icon_consulting.svg" alt="Icono del servicio" class="service-icon">
+                <h3 class="service-title" id="consulting-title">Título del Servicio 3</h3>
+            </div>
+            <p class="service-description" id="consulting-desc">
+                Tercer servicio. Es importante que los íconos SVG tengan una clase CSS para que podamos controlarlos
+                de manera centralizada y evitar la distorsión.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-card-header">
+                <img src="./assets/icons/icon_managed.svg" alt="Icono del servicio" class="service-icon">
+                <h3 class="service-title" id="managed-title">Título del Servicio 4</h3>
+            </div>
+            <p class="service-description" id="managed-desc">
+                Descripción del cuarto servicio. El uso de `display: flex` y `align-items: center` nos permite
+                alinear el ícono y el título de manera perfecta en la misma línea.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-card-header">
+                <img src="./assets/icons/icon_cloud.svg" alt="Icono del servicio" class="service-icon">
+                <h3 class="service-title" id="cloud-title">Título del Servicio 5</h3>
+            </div>
+            <p class="service-description" id="cloud-desc">
+                Finalmente, la descripción del quinto servicio. El diseño es adaptable y fácil de modificar, por lo
+                que puedes ajustar los tamaños, colores y espaciado según lo necesites.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- End of Partners Section -->
+
 
     <!-- Floating Buttons Section -->
     <section class="floating-buttons">
