@@ -25,14 +25,19 @@
 
 .ctechs-footer-address {
     text-align: right;
-    padding: 0 30px;
+    /* --- CAMBIOS --- */
+    /* Eliminamos el padding horizontal, el gap se encargará del espacio */
+    padding: 0 0 0 30px; 
     position: relative;
+    /* Añadimos un pequeño margen para separar los elementos */
+    margin-right: 1rem;
 }
 
 .ctechs-footer-address:not(:last-child)::after {
     content: "";
     position: absolute;
-    right: 0;
+    /* Posicionamos la línea en el centro del gap */
+    right: -60px; 
     top: 0;
     bottom: 0;
     width: 2px;
@@ -46,13 +51,18 @@
 
 .ctechs-footer-address p {
     font-size: 17px;
-    line-height: 0.2;
+    /* --- CAMBIOS --- */
+    /* Corregimos el line-height para evitar que el texto se encime */
+    line-height: 1.5;
 }
 
 .ctechs-footer-bottom {
     display: flex;
     align-items: center;
     padding-top: 20px;
+    /* --- CAMBIOS --- */
+    /* Para que los elementos se distribuyan en el footer inferior */
+    justify-content: space-between;
 }
 
 .ctechs-footer-social-icons {
@@ -106,6 +116,9 @@
     .ctechs-footer-bottom {
         flex-direction: column;
         gap: 20px;
+        /* --- CAMBIOS --- */
+        /* Para centrar los elementos en móviles */
+        justify-content: center;
     }
 
     .ctechs-footer-brands {
