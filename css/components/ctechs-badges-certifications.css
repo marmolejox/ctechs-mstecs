@@ -1,4 +1,4 @@
-.badge-display-section {
+/*.badge-display-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +23,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px; /* Ancho por defecto para tarjetas en filas de 2 */
+    width: 400px; 
     gap: 15px;
-    min-width: 0; /* Permite que el contenedor se encoja si es necesario */
+    min-width: 0; 
 }
 
 .badge-card {
@@ -36,15 +36,15 @@
     background-color: var(--color-gray-25);
     border-radius: 30px;
     width: 100%;
-    min-width: 0; /* Permite que el contenedor se encoja */
-    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .badge-logo {
     width: 200px;
     height: 64px;
     object-fit: contain;
-    flex-shrink: 0; /* Evita que el logo se encoja */
+    flex-shrink: 0; 
 }
 
 .badge-list {
@@ -53,37 +53,34 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-width: 0; /* Permite wrap cuando sea necesario */
+    min-width: 0;
 }
 
 .badge-img {
     width: 240px;
     height: auto;
     object-fit: contain;
-    flex-shrink: 0; /* Mantiene el tamaño de las imágenes */
+    flex-shrink: 0; 
 }
 
-/* Configuración para filas con 2 tarjetas */
 .badge-row.two-cards {
     justify-content: space-between;
 }
 
 .badge-row.two-cards .badge-group {
-    width: calc(50% - 25px); /* Usa porcentaje flexible en lugar de ancho fijo */
-    max-width: none; /* Sin límite de ancho máximo */
+    width: calc(50% - 25px); 
+    max-width: none; 
 }
 
-/* Configuración para filas con 1 tarjeta (ancho completo) */
 .badge-row.single-card {
     justify-content: center;
 }
 
 .badge-row.single-card .badge-group {
-    width: 100%; /* Usa todo el ancho disponible */
-    max-width: none; /* Sin límite de ancho máximo */
+    width: 100%; 
+    max-width: none; 
 }
 
-/* Responsive design para móviles */
 @media (max-width: 768px) {
     .badge-display-container {
         gap: 30px;
@@ -114,7 +111,7 @@
         width: 120px;
     }
     
-    /* Resetear las configuraciones específicas de filas para móvil */
+    
     .badge-row.two-cards,
     .badge-row.single-card {
         justify-content: center;
@@ -143,14 +140,186 @@
     }
 }
 
-/* Ajustes adicionales para imágenes más grandes */
+
 @media (min-width: 769px) {
-    /* Los contenedores ahora pueden crecer sin límites */
     .badge-row.two-cards .badge-group {
-        min-width: 300px; /* Ancho mínimo reducido */
+        min-width: 300px;
     }
     
     .badge-row.single-card .badge-group {
-        min-width: 400px; /* Ancho mínimo reducido */
+        min-width: 400px;
     }
+}
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Sección de Cards con Badges */
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos individuales para cada Card */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: calc(100% - 20px);
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+/* Logotipo encima de la card */
+.card-logo {
+    /*padding: 1rem;
+    width: 120px;
+    height: auto;
+    object-fit: contain;🐛*/
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Esto previene la distorsión */
+}
+
+/* Contenedor de badges dentro de la card */
+.card-content {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 120px;
+    gap: 10px;
+}
+
+/* Estilos de los badges */
+.badge-image {
+    /* --- CAMBIOS CLAVE AQUÍ --- */
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho de su contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen al escalarse */
+    width: 180px;
+    /* Tamaño por defecto de 60px para visualización inicial */
+    /* Puedes ajustar 'width' o 'min-width' si quieres un tamaño base diferente para las badges */
+    /* Por ejemplo, si quieres que inicialmente ocupen 80px pero se adapten: */
+    /* width: 80px; */
+    /* min-width: 60px; /* Asegura un tamaño mínimo si el contenedor es muy pequeño */
+    /* --- FIN CAMBIOS --- */
+    object-fit: contain;
+    /* Asegura que la imagen completa sea visible y no se recorte */
+}
+
+/* Regla para forzar el salto de línea en flexbox */
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin: 0;
+}
+
+/* --- Media Queries para Responsive Design --- */
+
+/* Para pantallas más pequeñas (teléfonos móviles, hasta 768px de ancho) */
+@media (max-width: 768px) {
+    .cards-section {
+        padding: 10px;
+        /* Reduce el padding de la sección en móviles */
+        gap: 15px;
+        /* Reduce el espacio entre las tarjetas */
+    }
+
+    .card-container {
+        width: 100%;
+        /* Las tarjetas ocuparán todo el ancho disponible */
+        min-width: unset;
+        /* Desactiva el min-width para mayor flexibilidad */
+        max-width: 100%;
+        /* Asegura que no superen el 100% del ancho del padre */
+        flex-basis: 100%;
+        /* Cada tarjeta ocupa su propia línea */
+    }
+
+    .card-logo {
+        width: 100px;
+        /* Ajusta el tamaño del logo para móviles */
+        height: auto;
+    }
+
+    .card-content {
+        padding: 15px;
+        /* Reduce el padding dentro de la tarjeta */
+        min-height: 100px;
+        /* Ajusta la altura mínima de la tarjeta */
+        gap: 8px;
+        /* Reduce el espacio entre las badges */
+    }
+
+    .badge-image {
+        width: 100px;
+        /* Haz las badges un poco más pequeñas para que quepan mejor */
+    }
+
+    /* Eliminar los saltos de línea forzados, ya que se apilarán automáticamente */
+    .break {
+        display: none;
+    }
+}
+
+/* Para pantallas medianas (tabletas, entre 769px y 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cards-section {
+        gap: 15px;
+        /* Ajusta el espacio entre tarjetas */
+    }
+
+    .card-container {
+        flex-basis: calc(50% - 15px);
+        /* Intenta colocar 2 tarjetas por línea */
+        max-width: calc(50% - 15px);
+        /* Limita a 2 tarjetas por línea */
+        min-width: unset;
+        /* Permite que se adapten mejor */
+    }
+
+    .card-logo {
+        width: 100px;
+        /* Puedes ajustar el tamaño del logo */
+    }
+
+    .card-content {
+        padding: 18px;
+        /* Ajusta el padding de la tarjeta */
+    }
+
+    .badge-image {
+        width: 120px;
+        /* Ajusta el tamaño de las badges para tabletas */
+    }
+
+    /* Mantener o ajustar los saltos de línea si es necesario en esta resolución */
+    /* .break { display: block; flex-basis: 100%; } */
+    /* Para 2 columnas, los breaks de Google, Splunk, Palo Alto etc. seguirán siendo relevantes si la distribución es muy específica */
 }
