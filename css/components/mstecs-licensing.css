@@ -9,7 +9,6 @@
 .mstecs-licensing-title {
     color: var(--color-blue-mstecs);
     font-size: 3.5rem;
-    letter-spacing: -1px;
 }
 
 .mstecs-licensing-subtitle {
@@ -147,7 +146,6 @@
 
     .mstecs-licensing-title {
         font-size: 2.5rem;
-        margin-bottom: -30px;
     }
 
     .mstecs-licensing-subtitle {
