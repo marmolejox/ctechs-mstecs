@@ -311,11 +311,6 @@ body {
     align-items: center;
     gap: 16px;
 
-    img {
-        width: 680px;
-        height: 120px;
-        object-fit: contain;
-    }
 
 }
 
@@ -421,8 +416,8 @@ body {
     }
 
         .mstecs-ft-google-logo{
-        width: 350px;
-        height: auto;
+        width: auto;
+        height: 50px;
     }
 }
 
