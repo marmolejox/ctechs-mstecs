@@ -91,6 +91,7 @@
 .ctechs-hero-title {
     color: var(--color-blue-ctechs);
     font-size: clamp(2.5rem, 8vw, 18rem);
+    margin: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
@@ -98,6 +99,7 @@
     color: #ffffff;
     font-size: clamp(1.5rem, 3.5vw, 8rem);
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    margin: 1rem;
     }
 
 .ctechs-hero-description {
