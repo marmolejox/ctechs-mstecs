@@ -51,9 +51,7 @@
 
 .ctechs-footer-address p {
     font-size: 17px;
-    /* --- CAMBIOS --- */
-    /* Corregimos el line-height para evitar que el texto se encime */
-    line-height: 1.5;
+    line-height: 0.4;
 }
 
 .ctechs-footer-bottom {
