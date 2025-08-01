@@ -9,7 +9,6 @@
 .mstecs-services-title {
     color: var(--color-blue-mstecs);
     font-size: 3.5rem;
-    margin-bottom: -45px;
     letter-spacing: -1px;
     text-align: center;
 }
@@ -95,6 +94,15 @@
     .mstecs-services-cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .mstecs-services-title{
+        font-size: 3rem;
+    }
+
+
+    .mstecs-services-subtitle{
+        font-size: 1.5rem;
     }
 
     .mstecs-services-card {
