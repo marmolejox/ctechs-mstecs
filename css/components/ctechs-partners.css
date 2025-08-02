@@ -20,37 +20,46 @@
     align-items: center;
 }
 
-.logo-row--first {
-    display: grid;
-    gap: 3rem;
-    padding: 1rem;
-}
-
-.logo-cell {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    gap: 3rem;
-}
-
-
+/* Estilos para las filas generales de logos */
 .logo-row {
     display: flex;
-    gap: 3rem;
     flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+/* Estilos específicos para la primera fila de logos usando Grid */
+.logo-row--first {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 3rem;
+    width: 100%;
+}
+
+/* Estilos para las celdas dentro de la primera fila */
+.logo-cell {
+    display: flex;
+    align-items: center; /* Centra verticalmente los logos en cada celda */
+    justify-content: center; /* Centra horizontalmente los logos en cada celda */
+    gap: 1rem;
+}
+
+/* Estilo para la celda de Microsoft y Google para apilarlos verticalmente */
+.logo-cell.logo-microsoft-google {
+    flex-direction: column;
+}
+
+.partners-logos img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 0.5rem;
 }
 
 .row4 img {
-    object-fit: contain;
-    height: 144px !important;
+    height: 144px;
 }
-
-.logo-row img {
-    width: 250px;
-    height: auto;
-    object-fit: contain;
-}
-
 
 .partners-text {
     margin-top: 1.5rem;
@@ -59,37 +68,28 @@
     color: #333;
 }
 
+/* ------------------------------------------- */
+/* Media Queries */
+/* ------------------------------------------- */
+
 @media (max-width: 768px) {
     .partners-logos {
-        flex-direction: column;
+        gap: 2rem;
     }
 
-    .logo-row,
-    .logo-row--first { 
-        flex-direction: column; 
-        gap: 1rem; 
-        justify-content: center; 
-    }
-
-    .logo-row img {
-        max-width: 100%; 
-        height: auto;
-        object-fit: contain;
-    }
-}
-
-@media (max-width: 480px) {
     .logo-row,
     .logo-row--first {
         flex-direction: column;
-        gap: 1rem; 
-        justify-content: center; 
-        width: 100%; 
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
-    .logo-row img {
-        max-width: 100%; 
-        height: auto; 
+    .logo-cell {
+        flex-direction: column; /* Esta es la línea que soluciona el problema */
+    }
+
+    .partners-logos img {
+        max-width: 100%;
     }
 
     .partners-text {
