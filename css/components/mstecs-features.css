@@ -63,6 +63,12 @@ body {
         margin-bottom: 8px;
     }
 
+}
+
+.mstecs-ft-microsoft-card-section-subtitle{
+    font-size: 14px;
+    color: var(--color-gray-70);
+    margin: 16px;
 
 }
 
@@ -218,6 +224,13 @@ body {
     min-height: 400px;
     height: auto;
     overflow: hidden;
+}
+
+.mstecs-ft-office-card-section-subtitle{
+    font-size: 14px;
+    color: var(--color-gray-70);
+    margin: 16px;
+
 }
 
 .mstecs-ft-office-card-btn {
@@ -387,7 +400,7 @@ body {
 .mstecs-ft-google-card-section-subtitle {
     font-size: 14px;
     color: var(--color-gray-70);
-    margin-bottom: 16px;
+    margin: 16px;
 }
 
 
